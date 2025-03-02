@@ -27,10 +27,10 @@ const MealOption = ({ option }) => {
         <h3 className="option-title">{optionName}</h3>
 
         <div className="option-macros">
-          <div className="macro-pill calories">
-            <FaFire className="macro-icon" /> {caloriesValue}
-          </div>
           <div className="macros-row">
+            <div className="macro-pill calories">
+              <FaFire className="macro-icon" /> {caloriesValue}
+            </div>
             <div className="macro-pill protein">
               <FaWeight className="macro-icon" /> {proteinValue}
             </div>

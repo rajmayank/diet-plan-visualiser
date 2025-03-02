@@ -46,19 +46,19 @@ main {
 @media print {
   html,
   body {
-    width: 210mm;
-    height: 297mm;
+    width: 216mm;
+    height: 356mm;
   }
 
   .diet-plan-app {
     padding: 0;
-    width: 210mm;
+    width: 216mm;
   }
 
   main {
     box-shadow: none;
     padding: 0;
-    width: 210mm;
+    width: 216mm;
     border-radius: 0;
   }
 }

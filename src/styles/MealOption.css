@@ -20,6 +20,7 @@
   color: #2c3e50;
   font-weight: 600;
   font-size: 1.2rem;
+  max-width: 50%;
 }
 
 .option-macros {
@@ -47,19 +48,19 @@
 }
 
 .protein {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 .carbs {
-  background-color: #FF9800;
+  background-color: #ff9800;
 }
 
 .fat {
-  background-color: #9C27B0;
+  background-color: #9c27b0;
 }
 
 .calories {
-  background-color: #F44336;
+  background-color: #f44336;
 }
 
 .macro-icon {
@@ -110,7 +111,7 @@
 
 .prep-time-container {
   background-color: #f8f9fa;
-  padding: 0.75rem;
+  padding: 0.1rem 1.2rem;
   border-radius: 4px;
   border-left: 2px solid #7f8c8d;
   margin-top: 0.75rem;
@@ -181,41 +182,41 @@
     border: 1px solid #e0e0e0;
     page-break-inside: avoid;
   }
-  
+
   .option-header {
     border-bottom: 1px solid #000;
     background-color: #f8f9fa !important;
   }
-  
+
   .option-footer {
     border-top: 1px solid #000;
     background-color: #f8f9fa !important;
   }
-  
+
   .macro-pill {
     color: white !important;
   }
-  
+
   .protein {
-    background-color: #4CAF50 !important;
+    background-color: #4caf50 !important;
   }
-  
+
   .carbs {
-    background-color: #FF9800 !important;
+    background-color: #ff9800 !important;
   }
-  
+
   .fat {
-    background-color: #9C27B0 !important;
+    background-color: #9c27b0 !important;
   }
-  
+
   .calories {
-    background-color: #F44336 !important;
+    background-color: #f44336 !important;
   }
-  
+
   .ingredients-column {
     border-right: 1px solid #000;
   }
-  
+
   .prep-time-container {
     background-color: #f8f9fa !important;
     border: 1px solid #7f8c8d;

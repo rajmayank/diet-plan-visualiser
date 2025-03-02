@@ -18,8 +18,8 @@
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  width: 210mm;
-  height: 297mm;
+  width: 216mm;
+  height: 356mm;
   margin: 0 auto 2rem;
   box-sizing: border-box;
   overflow: hidden;
@@ -39,8 +39,8 @@
     padding: 10mm;
     page-break-after: always;
     border-radius: 0;
-    width: 210mm;
-    height: 297mm;
+    width: 216mm;
+    height: 356mm;
   }
   
   .page:last-child {
