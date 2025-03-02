@@ -121,8 +121,19 @@
 
 .page-footer {
   margin-top: auto;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #999;
   font-size: 0.8rem;
   padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.footer-meal-name {
+  font-weight: 500;
+}
+
+.footer-page-number {
+  font-style: italic;
 }

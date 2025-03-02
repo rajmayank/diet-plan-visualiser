@@ -1,6 +1,13 @@
 import React from "react";
 import "../styles/MealOption.css";
-import { FaClock, FaWeight, FaCarrot, FaOilCan, FaFire, FaInfoCircle } from "react-icons/fa";
+import {
+  FaClock,
+  FaWeight,
+  FaCarrot,
+  FaOilCan,
+  FaFire,
+  FaLightbulb,
+} from "react-icons/fa";
 
 const MealOption = ({ option }) => {
   // Extract the option name without the "Option X:" prefix
@@ -45,15 +52,21 @@ const MealOption = ({ option }) => {
         </div>
 
         <div className="preparation-column">
-          <div className="prep-time">
-            <FaClock className="time-icon" /> {option.prepTime}
-          </div>
           <p className="prep-instructions">{option.prepOverview}</p>
-          
-          <div className="interesting-facts">
-            <h5><FaInfoCircle className="info-icon" /> Interesting Facts</h5>
-            <p>{option.interestingFacts}</p>
+
+          <div className="prep-time-container">
+            <div className="prep-time-content">
+              <FaClock className="clock-icon" />
+              <p>{option.prepTime}</p>
+            </div>
           </div>
+        </div>
+      </div>
+
+      <div className="option-footer">
+        <div className="footer-facts">
+          <FaLightbulb className="footer-icon" />
+          <p>{option.interestingFacts}</p>
         </div>
       </div>
     </div>

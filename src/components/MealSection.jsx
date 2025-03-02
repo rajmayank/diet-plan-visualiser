@@ -1,22 +1,28 @@
 import React from "react";
 import MealOption from "./MealOption";
 import "../styles/MealSection.css";
-import { FaWeight, FaCarrot, FaOilCan, FaFire, FaCoffee, FaAppleAlt, FaUtensils, FaDumbbell, FaMoon } from "react-icons/fa";
+import {
+  FaWeight,
+  FaCarrot,
+  FaOilCan,
+  FaFire,
+  FaCoffee,
+  FaUtensils,
+  FaDumbbell,
+} from "react-icons/fa";
 import { GiSandwich, GiNoodles } from "react-icons/gi";
-import { MdFreeBreakfast, MdLunchDining, MdDinnerDining, MdBrunchDining } from "react-icons/md";
+import { MdFreeBreakfast, MdLunchDining, MdDinnerDining } from "react-icons/md";
 
-const MealSection = ({
-  mealSection,
-  pageTitle,
-  isPartialPage,
-  pageNumber,
-  totalPages,
-}) => {
+const MealSection = ({ mealSection, pageTitle, pageNumber, totalPages }) => {
   const displayTitle = pageTitle || mealSection.mealName;
   // Extract just the meal name (e.g., "Breakfast" from "Meal 1: Breakfast")
+  // Also remove any page numbering like "(1/3)" from the title
   const mealNameShort = displayTitle.includes(":")
-    ? displayTitle.split(":")[1].trim()
-    : displayTitle;
+    ? displayTitle
+        .split(":")[1]
+        .trim()
+        .replace(/\s*\(\d+\/\d+\)\s*$/, "")
+    : displayTitle.replace(/\s*\(\d+\/\d+\)\s*$/, "");
   const mealTime = mealSection.time;
 
   // Extract macro values and percentages
@@ -45,10 +51,13 @@ const MealSection = ({
   // Select the appropriate icon based on meal name
   const getMealIcon = () => {
     const mealNameLower = mealNameShort.toLowerCase();
-    
+
     if (mealNameLower.includes("breakfast")) {
       return <MdFreeBreakfast />;
-    } else if (mealNameLower.includes("mid-morning") || mealNameLower.includes("snack")) {
+    } else if (
+      mealNameLower.includes("mid-morning") ||
+      mealNameLower.includes("snack")
+    ) {
       return <GiSandwich />;
     } else if (mealNameLower.includes("lunch")) {
       return <MdLunchDining />;
@@ -67,9 +76,7 @@ const MealSection = ({
     <div className="meal-section">
       <div className="meal-header">
         <div className="meal-title-section">
-          <div className="meal-icon">
-            {getMealIcon()}
-          </div>
+          <div className="meal-icon">{getMealIcon()}</div>
           <div className="meal-title-info">
             <div className="meal-title-time-container">
               <h2>{mealNameShort}</h2>
@@ -119,13 +126,10 @@ const MealSection = ({
       </div>
 
       <div className="page-footer">
-        {isPartialPage ? (
-          <p>
-            {mealNameShort} - Page {pageNumber} of {totalPages}
-          </p>
-        ) : (
-          <p>{mealNameShort}</p>
-        )}
+        <span className="footer-meal-name">{mealNameShort}</span>
+        <span className="footer-page-number">
+          Page {pageNumber} of {totalPages}
+        </span>
       </div>
     </div>
   );
