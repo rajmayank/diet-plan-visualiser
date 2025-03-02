@@ -1,0 +1,1717 @@
+{
+    "dailyGoals": {
+        "targetCalories": "2300-2400kcal",
+        "targetProtein": "~185g",
+        "targetCarbs": "~216g",
+        "targetFats": "~83g"
+    },
+    "mealSections": [
+        {
+            "mealName": "Meal 1: Breakfast",
+            "time": "7:00 AM - 8:00 AM",
+            "macroGoals": {
+                "calories": "345-360kcal (~15%)",
+                "protein": "25-30g (~15%)",
+                "carbs": "40-45g (~20%)",
+                "fat": "10-12g (~14%)"
+            },
+            "mealObjective": "Kickstart metabolism, replenish glycogen, initiate muscle protein synthesis, and provide sustained energy to start the day.",
+            "mealOptions": [
+                {
+                    "optionName": "Option 1: Whey Protein & Oats Porridge",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Rolled Oats: 40g (dry weight)",
+                        "Whey Protein Powder (vanilla or unflavored): 1 scoop (30g powder)",
+                        "Almond Milk: 150ml",
+                        "Cinnamon: 0.5 tsp"
+                    ],
+                    "prepOverview": "Combine rolled oats and almond milk in a saucepan or microwave-safe bowl. Cook oats as per package instructions or microwave for 2-3 minutes. Once cooked, stir in whey protein powder and cinnamon. Mix well until protein is fully dissolved and porridge is creamy.",
+                    "interestingFacts": "Whey protein is rapidly absorbed, excellent for morning protein. Oats provide sustained energy.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~29g",
+                        "carbs": "~43g",
+                        "fat": "~9g"
+                    }
+                },
+                {
+                    "optionName": "Option 2: Paneer & Brown Bread Toast",
+                    "prepTime": "10 mins",
+                    "ingredients": [
+                        "Brown Bread Slices: 2 slices (approx. 70g)",
+                        "Cottage Cheese (Paneer), crumbled: 100g",
+                        "Mustard: 2 tsp",
+                        "Tomato slices: 50g"
+                    ],
+                    "prepOverview": "Toast bread. Mix paneer with mustard. Spread on toast. Top with tomatoes. Grill briefly if desired.",
+                    "interestingFacts": "Brown bread fiber, Paneer casein protein, Mustard flavor boost.",
+                    "macros": {
+                        "calories": "~360kcal",
+                        "protein": "~27g",
+                        "carbs": "~41g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 3: Chickpea Flour (Besan) Pancakes with Paneer",
+                    "prepTime": "20 mins",
+                    "ingredients": [
+                        "Chickpea Flour (Besan): 50g",
+                        "Water: 100ml",
+                        "Cottage Cheese (Paneer), crumbled: 80g",
+                        "Onion, finely chopped: 20g"
+                    ],
+                    "prepOverview": "Mix chickpea flour and water to form a batter. Add chopped onion. Heat a non-stick pan, pour batter to make pancakes. Cook until golden brown on both sides. Serve with crumbled paneer as topping/filling.",
+                    "interestingFacts": "Chickpea flour is protein-rich and gluten-free. Savory pancakes offer a different breakfast style.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~26g",
+                        "carbs": "~45g",
+                        "fat": "~10g"
+                    }
+                },
+                {
+                    "optionName": "Option 4: Overnight Oats with Peanut Butter & Banana",
+                    "prepTime": "5 mins (prep night before)",
+                    "ingredients": [
+                        "Rolled Oats: 40g",
+                        "Almond Milk: 150ml",
+                        "Whey Protein Powder (optional, vanilla): 1/2 scoop (15g powder)",
+                        "Peanut Butter: 1 tbsp (16g)",
+                        "Banana, sliced (for topping): 50g"
+                    ],
+                    "prepOverview": "Mix oats, almond milk, and protein powder (if using) in a jar or container. Refrigerate overnight. In the morning, top with peanut butter and sliced banana.",
+                    "interestingFacts": "Cold oats are convenient and creamy. Peanut butter adds healthy fats and flavor.",
+                    "macros": {
+                        "calories": "~340kcal",
+                        "protein": "~25g",
+                        "carbs": "~42g",
+                        "fat": "~11g"
+                    }
+                },
+                {
+                    "optionName": "Option 5: Brown Bread Upma with Vegetables & Paneer",
+                    "prepTime": "25 mins",
+                    "ingredients": [
+                        "Brown Bread, cubed: 2 slices (approx. 70g)",
+                        "Cottage Cheese (Paneer), cubed: 80g",
+                        "Onion, chopped: 20g",
+                        "Mixed Vegetables (Carrot, Peas - from acceptable list): 50g"
+                    ],
+                    "prepOverview": "Lightly toast bread cubes in a pan. In the same pan, saut\u00e9 onions and vegetables. Add paneer cubes and toasted bread. Mix well and cook for a few minutes until heated through. Season with spices (optional).",
+                    "interestingFacts": "Upma is a savory breakfast dish. Using brown bread makes it fiber-rich.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~28g",
+                        "carbs": "~40g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 6: Protein Smoothie with Berries & Oats",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Whey Protein Powder (vanilla): 1 scoop (30g powder)",
+                        "Mixed Berries (frozen): 70g",
+                        "Rolled Oats (raw): 20g",
+                        "Almond Milk: 150ml"
+                    ],
+                    "prepOverview": "Blend all ingredients until smooth. Add more almond milk for desired consistency.",
+                    "interestingFacts": "Smoothie is a quick and nutrient-dense breakfast. Berries add antioxidants.",
+                    "macros": {
+                        "calories": "~360kcal",
+                        "protein": "~29g",
+                        "carbs": "~44g",
+                        "fat": "~9g"
+                    }
+                },
+                {
+                    "optionName": "Option 7: Lentil and Vegetable Soup (Breakfast Soup)",
+                    "prepTime": "30 mins",
+                    "ingredients": [
+                        "Red Lentils: 60g (dry weight)",
+                        "Mixed Vegetables (Carrot, Onion, Tomato, Broccoli): 100g",
+                        "Vegetable Broth or Water: 400ml",
+                        "Spices (Cumin, Turmeric, Ginger): to taste"
+                    ],
+                    "prepOverview": "Rinse lentils. Saut\u00e9 chopped vegetables in a pot. Add lentils, broth, and spices. Simmer until lentils are soft and soup thickens.",
+                    "interestingFacts": "Lentil soup is warming and filling. Savory breakfast option, common in some cultures.",
+                    "macros": {
+                        "calories": "~345kcal",
+                        "protein": "~27g",
+                        "carbs": "~43g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 8: Paneer Scramble with Tomatoes & Onions",
+                    "prepTime": "15 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), crumbled: 120g",
+                        "Onion, chopped: 30g",
+                        "Tomato, chopped: 50g",
+                        "Olive Oil: 1 tsp (5ml)"
+                    ],
+                    "prepOverview": "Heat olive oil in a pan. Saut\u00e9 onions and tomatoes. Add crumbled paneer and cook until heated through. Season with spices (optional).",
+                    "interestingFacts": "Paneer scramble is a high-protein, low-carb breakfast. Similar to egg scramble in concept.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~28g",
+                        "carbs": "~40g",
+                        "fat": "~11g"
+                    }
+                },
+                {
+                    "optionName": "Option 9:  Greek Yogurt Bowl with Apple & Cinnamon",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Greek Yogurt (non-fat): 200g",
+                        "Apple, diced: 100g",
+                        "Cinnamon: 1 tsp",
+                        "Honey: 1 tsp (optional)"
+                    ],
+                    "prepOverview": "Place Greek yogurt in a bowl. Top with diced apple and cinnamon. Drizzle honey if desired.",
+                    "interestingFacts": "Greek yogurt probiotics, Apple fiber, Cinnamon flavor and potential blood sugar benefits.",
+                    "macros": {
+                        "calories": "~340kcal",
+                        "protein": "~26g",
+                        "carbs": "~45g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 10: Brown Rice Porridge with Milk & Honey",
+                    "prepTime": "30 mins (including rice cooking)",
+                    "ingredients": [
+                        "Brown Rice (cooked): 150g",
+                        "Milk (low-fat): 150ml",
+                        "Honey: 2 tsp (10g)",
+                        "Cinnamon: a pinch"
+                    ],
+                    "prepOverview": "Cook brown rice until soft and slightly mushy (porridge consistency). Mix with milk and honey. Sprinkle cinnamon. Can be served warm or cold.",
+                    "interestingFacts": "Brown rice porridge is a traditional comfort food. Provides sustained energy and is easily digestible.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~25g",
+                        "carbs": "~48g",
+                        "fat": "~10g"
+                    }
+                },
+                {
+                    "optionName": "Option 11: Peanut Butter & Banana Sandwich on Brown Bread",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Brown Bread Slices: 2 slices (approx. 70g)",
+                        "Peanut Butter: 2 tbsp (32g)",
+                        "Banana, sliced: 50g"
+                    ],
+                    "prepOverview": "Spread peanut butter on brown bread slices. Layer banana slices on one slice and top with the other.",
+                    "interestingFacts": "Classic combination. Peanut butter healthy fats & protein, Banana potassium, Brown bread fiber.",
+                    "macros": {
+                        "calories": "~360kcal",
+                        "protein": "~26g",
+                        "carbs": "~44g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 12: Cottage Cheese & Tomato Rice Cakes",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Rice Cakes: 3 cakes",
+                        "Cottage Cheese (Paneer): 150g",
+                        "Tomato slices: 50g",
+                        "Basil (fresh or dried): optional"
+                    ],
+                    "prepOverview": "Spread cottage cheese on rice cakes. Top with tomato slices and basil (if using).",
+                    "interestingFacts": "Rice cakes light carbs, Cottage cheese casein, Tomato vitamins.",
+                    "macros": {
+                        "calories": "~345kcal",
+                        "protein": "~27g",
+                        "carbs": "~42g",
+                        "fat": "~9g"
+                    }
+                },
+                {
+                    "optionName": "Option 13: Whey Protein Pancake (Oats Based)",
+                    "prepTime": "15 mins",
+                    "ingredients": [
+                        "Rolled Oats (powdered): 30g (grind rolled oats in blender)",
+                        "Whey Protein Powder (vanilla): 1 scoop (30g powder)",
+                        "Almond Milk: 50ml",
+                        "Cinnamon: 0.5 tsp"
+                    ],
+                    "prepOverview": "Mix powdered oats, protein powder, almond milk, and cinnamon to form a batter. Heat a non-stick pan. Pour batter to make pancakes. Cook until golden brown on both sides.",
+                    "interestingFacts": "Protein pancakes are a healthier alternative to regular pancakes. Oats provide fiber, whey protein boosts protein content.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~28g",
+                        "carbs": "~41g",
+                        "fat": "~10g"
+                    }
+                },
+                {
+                    "optionName": "Option 14: Moong Dal Cheela (Pancake)",
+                    "prepTime": "25 mins (including soaking time if using whole moong dal)",
+                    "ingredients": [
+                        "Moong Dal (Split Yellow Gram): 50g (soaked for 2-3 hours or use Moong Dal flour)",
+                        "Water: as needed to blend",
+                        "Onion, finely chopped: 20g",
+                        "Spices (Ginger, Garlic, Chili - optional): to taste"
+                    ],
+                    "prepOverview": "If using whole moong dal, soak, then blend with water to a smooth batter. If using moong dal flour, mix with water to batter consistency. Add chopped onion and spices. Heat non-stick pan, pour batter to make cheelas (thin pancakes). Cook until golden brown.",
+                    "interestingFacts": "Moong dal is a light and digestible legume. Cheelas are a savory and nutritious breakfast option.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~29g",
+                        "carbs": "~46g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 15: Quinoa Porridge with Milk & Berries",
+                    "prepTime": "30 mins (including quinoa cooking)",
+                    "ingredients": [
+                        "Quinoa Seeds: 40g (dry weight)",
+                        "Milk (low-fat): 150ml",
+                        "Mixed Berries: 50g",
+                        "Honey: 1 tsp (optional)"
+                    ],
+                    "prepOverview": "Cook quinoa with water until soft (porridge consistency). Mix cooked quinoa with milk and berries. Drizzle honey if desired. Serve warm or cold.",
+                    "interestingFacts": "Quinoa is a complete protein source (for a grain). Berries add antioxidants and flavor.",
+                    "macros": {
+                        "calories": "~360kcal",
+                        "protein": "~27g",
+                        "carbs": "~45g",
+                        "fat": "~11g"
+                    }
+                }
+            ]
+        },
+        {
+            "mealName": "Meal 2: Mid-Morning Snack",
+            "time": "10:00 AM - 11:00 AM",
+            "macroGoals": {
+                "calories": "230-240kcal (~10%)",
+                "protein": "15-20g (~10%)",
+                "carbs": "25-30g (~12%)",
+                "fat": "5-7g (~7%)"
+            },
+            "mealObjective": "Sustain energy, stabilize blood sugar, control hunger until lunch, and continue protein supply.",
+            "mealOptions": [
+                {
+                    "optionName": "Option 1: Greek Yogurt with Berries",
+                    "prepTime": "2 mins",
+                    "ingredients": [
+                        "Greek Yogurt (non-fat): 150g",
+                        "Mixed Berries (strawberries, blueberries, raspberries): 75g",
+                        "Cinnamon: a pinch"
+                    ],
+                    "prepOverview": "Place Greek yogurt in a bowl. Top with mixed berries and cinnamon.",
+                    "interestingFacts": "Greek yogurt protein & probiotics, Berries antioxidants & fiber.",
+                    "macros": {
+                        "calories": "~235kcal",
+                        "protein": "~18g",
+                        "carbs": "~28g",
+                        "fat": "~4g"
+                    }
+                },
+                {
+                    "optionName": "Option 2: Whey Protein Shake with Banana",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Whey Protein Powder (vanilla or flavor of choice): 1 scoop (30g powder)",
+                        "Banana: 1 small (approx. 80g)",
+                        "Almond Milk or Water: 200ml"
+                    ],
+                    "prepOverview": "Blend/shake protein powder, banana, and almond milk/water.",
+                    "interestingFacts": "Quick protein & carb boost. Banana potassium & energy.",
+                    "macros": {
+                        "calories": "~240kcal",
+                        "protein": "~20g",
+                        "carbs": "~30g",
+                        "fat": "~4g"
+                    }
+                },
+                {
+                    "optionName": "Option 3: Apple Slices with Peanut Butter",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Apple: 1 medium (approx. 150g)",
+                        "Peanut Butter: 1 tbsp (16g)",
+                        "Cinnamon: a sprinkle (optional)"
+                    ],
+                    "prepOverview": "Slice apple. Spread peanut butter on slices. Sprinkle cinnamon if desired.",
+                    "interestingFacts": "Apple fiber & vitamins, Peanut butter healthy fats & some protein.",
+                    "macros": {
+                        "calories": "~230kcal",
+                        "protein": "~8g",
+                        "carbs": "~20g",
+                        "fat": "~14g"
+                    }
+                },
+                {
+                    "optionName": "Option 4: Cottage Cheese with Peach Slices (or Orange Segments)",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer): 150g",
+                        "Peach (or Orange): 1 medium peach (or 1 orange) sliced/segmented",
+                        "Cinnamon: a pinch (optional)"
+                    ],
+                    "prepOverview": "Place cottage cheese in a bowl. Top with peach/orange slices. Sprinkle cinnamon.",
+                    "interestingFacts": "Cottage cheese casein protein, Peach/Orange vitamins & natural sweetness.",
+                    "macros": {
+                        "calories": "~235kcal",
+                        "protein": "~19g",
+                        "carbs": "~20g",
+                        "fat": "~9g"
+                    }
+                },
+                {
+                    "optionName": "Option 5: Protein Yogurt (Whey Protein mixed in Yogurt)",
+                    "prepTime": "2 mins",
+                    "ingredients": [
+                        "Greek Yogurt (non-fat): 100g",
+                        "Whey Protein Powder (vanilla or unflavored): 1/2 scoop (15g powder)",
+                        "Almond Milk (optional, for consistency): 20-30ml"
+                    ],
+                    "prepOverview": "Mix whey protein powder into Greek yogurt. Add a splash of almond milk if needed for smoother consistency.",
+                    "interestingFacts": "Double protein dose from yogurt and whey. Quick and easy snack.",
+                    "macros": {
+                        "calories": "~230kcal",
+                        "protein": "~21g",
+                        "carbs": "~15g",
+                        "fat": "~6g"
+                    }
+                },
+                {
+                    "optionName": "Option 6: Handful of Almonds with Orange",
+                    "prepTime": "2 mins",
+                    "ingredients": [
+                        "Almonds: 30g (approx. 20-25 almonds)",
+                        "Orange: 1 medium"
+                    ],
+                    "prepOverview": "Portion out almonds. Peel and eat orange.",
+                    "interestingFacts": "Almonds healthy fats & fiber, Orange vitamin C & hydration.",
+                    "macros": {
+                        "calories": "~240kcal",
+                        "protein": "~7g",
+                        "carbs": "~18g",
+                        "fat": "~18g"
+                    }
+                },
+                {
+                    "optionName": "Option 7: Rice Cakes with Peanut Butter & Banana Slices",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Rice Cakes: 2 cakes",
+                        "Peanut Butter: 1 tbsp (16g)",
+                        "Banana slices: from 1/2 small banana (approx. 40g)"
+                    ],
+                    "prepOverview": "Spread peanut butter on rice cakes. Top with banana slices.",
+                    "interestingFacts": "Rice cakes light carbs, Peanut butter fats & protein, Banana potassium.",
+                    "macros": {
+                        "calories": "~235kcal",
+                        "protein": "~7g",
+                        "carbs": "~28g",
+                        "fat": "~11g"
+                    }
+                },
+                {
+                    "optionName": "Option 8: Low-Fat Cheese (Mozzarella/Feta) Cubes with Tomato Slices",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Low-Fat Mozzarella or Feta Cheese, cubed: 70g",
+                        "Tomato slices: 50g",
+                        "Basil (optional): a few leaves or dried"
+                    ],
+                    "prepOverview": "Cube cheese. Slice tomatoes. Combine cheese and tomato slices. Sprinkle basil if using.",
+                    "interestingFacts": "Cheese protein & calcium, Tomato vitamins. Savory snack option.",
+                    "macros": {
+                        "calories": "~230kcal",
+                        "protein": "~16g",
+                        "carbs": "~5g",
+                        "fat": "~15g"
+                    }
+                },
+                {
+                    "optionName": "Option 9: Sprouted Chickpeas Salad (Simple)",
+                    "prepTime": "5 mins (sprouts need pre-sprouting, which takes 1-2 days)",
+                    "ingredients": [
+                        "Sprouted Chickpeas: 100g",
+                        "Tomato, chopped: 30g",
+                        "Onion, chopped: 10g",
+                        "Lemon Juice: 1 tsp (optional, for dressing - acceptable condiment)"
+                    ],
+                    "prepOverview": "Combine sprouted chickpeas, chopped tomato, and onion. Add lemon juice for dressing if desired.",
+                    "interestingFacts": "Sprouted chickpeas nutrient-dense & digestible, Salad provides fiber & freshness.",
+                    "macros": {
+                        "calories": "~235kcal",
+                        "protein": "~10g",
+                        "carbs": "~30g",
+                        "fat": "~7g"
+                    }
+                },
+                {
+                    "optionName": "Option 10: Whey Protein Pudding (using Dairy Milk)",
+                    "prepTime": "5 mins + chilling time",
+                    "ingredients": [
+                        "Whey Protein Powder (vanilla or flavor of choice): 1 scoop (25g powder)",
+                        "Milk (low-fat): 100ml",
+                        "Cinnamon or Vanilla Extract (optional): a pinch"
+                    ],
+                    "prepOverview": "Mix whey protein powder with milk in a bowl. Stir well to dissolve protein. Refrigerate for at least 15-20 minutes to thicken into a pudding consistency. Add cinnamon/vanilla for flavor.",
+                    "interestingFacts": "Protein pudding is a dessert-like snack with high protein. Milk adds creaminess.",
+                    "macros": {
+                        "calories": "~240kcal",
+                        "protein": "~22g",
+                        "carbs": "~18g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 11: Orange and Cottage Cheese Snack",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer): 120g",
+                        "Orange: 1 medium",
+                        "Cinnamon: a pinch"
+                    ],
+                    "prepOverview": "Peel and segment orange. Serve cottage cheese alongside orange segments. Sprinkle cinnamon on cottage cheese or orange.",
+                    "interestingFacts": "Vitamin C from orange aids in iron absorption (if consumed with iron-rich meal later). Cottage cheese casein protein.",
+                    "macros": {
+                        "calories": "~230kcal",
+                        "protein": "~18g",
+                        "carbs": "~18g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 12:  Banana \"Nice Cream\" (Protein Boosted)",
+                    "prepTime": "10 mins (freezing time required for banana - pre-prep)",
+                    "ingredients": [
+                        "Frozen Banana slices: 1 medium banana (approx. 100g, frozen beforehand)",
+                        "Whey Protein Powder (vanilla): 1/2 scoop (15g powder)",
+                        "Almond Milk (optional, if needed for blending): 20-30ml"
+                    ],
+                    "prepOverview": "Blend frozen banana slices and whey protein powder in a food processor or high-powered blender until smooth and ice cream-like consistency. Add a splash of almond milk if needed to help blend.",
+                    "interestingFacts": "\"Nice cream\" is a healthy ice cream alternative. Banana provides sweetness and creamy texture. Whey protein boosts protein content.",
+                    "macros": {
+                        "calories": "~235kcal",
+                        "protein": "~19g",
+                        "carbs": "~35g",
+                        "fat": "~3g"
+                    }
+                },
+                {
+                    "optionName": "Option 13:  Rice Cakes with Salsa & Cottage Cheese",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Rice Cakes: 2 cakes",
+                        "Cottage Cheese (Paneer): 100g",
+                        "Salsa (from acceptable list): 2 tbsp"
+                    ],
+                    "prepOverview": "Spread cottage cheese on rice cakes. Top with salsa.",
+                    "interestingFacts": "Savory snack. Salsa adds flavor and vegetables (tomato, onion). Cottage cheese casein protein.",
+                    "macros": {
+                        "calories": "~240kcal",
+                        "protein": "~17g",
+                        "carbs": "~25g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 14:  Pinto Bean Dip with Rice Cakes",
+                    "prepTime": "10 mins (if using canned beans, otherwise longer if cooking beans from scratch)",
+                    "ingredients": [
+                        "Pinto Beans (canned, drained and rinsed or cooked): 80g",
+                        "Salsa (from acceptable list): 2 tbsp",
+                        "Rice Cakes: 2 cakes",
+                        "Spices (Cumin, Paprika - optional): a pinch"
+                    ],
+                    "prepOverview": "Mash pinto beans with a fork. Mix in salsa and spices (if using). Spread bean dip on rice cakes.",
+                    "interestingFacts": "Bean dip provides fiber and plant-based protein. Rice cakes are a light base.",
+                    "macros": {
+                        "calories": "~235kcal",
+                        "protein": "~10g",
+                        "carbs": "~32g",
+                        "fat": "~6g"
+                    }
+                },
+                {
+                    "optionName": "Option 15:  Milk (or Almond Milk) with Cinnamon & Honey",
+                    "prepTime": "2 mins",
+                    "ingredients": [
+                        "Milk (low-fat) or Almond Milk: 250ml",
+                        "Honey: 1 tsp (5g)",
+                        "Cinnamon: 0.5 tsp"
+                    ],
+                    "prepOverview": "Heat milk (optional, can be cold). Stir in honey and cinnamon.",
+                    "interestingFacts": "Warm milk (or cold) can be comforting. Cinnamon may have blood sugar regulating properties. Honey provides slight sweetness.",
+                    "macros": {
+                        "calories": "~230kcal",
+                        "protein": "~8g",
+                        "carbs": "~30g",
+                        "fat": "~7g (if using low-fat dairy milk) / Lower fat if using almond milk"
+                    }
+                }
+            ]
+        },
+        {
+            "mealName": "Meal 3: Lunch",
+            "time": "1:00 PM - 2:00 PM",
+            "macroGoals": {
+                "calories": "460-480kcal (~20%)",
+                "protein": "35-40g (~20%)",
+                "carbs": "50-60g (~25%)",
+                "fat": "15-18g (~20%)"
+            },
+            "mealObjective": "Refuel energy stores, provide substantial protein for muscle maintenance and growth, and sustain satiety into the afternoon.",
+            "mealOptions": [
+                {
+                    "optionName": "Option 1: Soya Chunks & Brown Rice Bowl",
+                    "prepTime": "25 mins (including rice cooking)",
+                    "ingredients": [
+                        "Soya Chunks (TVP, dry): 50g",
+                        "Brown Rice (cooked): 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Mixed Vegetables (Onion, Tomato, Broccoli, Cauliflower): 100g",
+                        "Spices (Turmeric, Cumin, Garlic powder): to taste"
+                    ],
+                    "prepOverview": "Soak soya chunks, cook rice. Saut\u00e9 onions, add veggies & soya chunks, spices. Cook till veggies tender. Serve with rice.",
+                    "interestingFacts": "Soya chunks plant-based protein, Brown rice complex carbs & fiber.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~38g",
+                        "carbs": "~55g",
+                        "fat": "~16g"
+                    }
+                },
+                {
+                    "optionName": "Option 2: Lentil Soup with Whole-Grain Bread",
+                    "prepTime": "30 mins",
+                    "ingredients": [
+                        "Red Lentils: 70g (dry weight)",
+                        "Whole-Grain Bread: 2 slices (approx. 70g)",
+                        "Carrots, chopped: 50g",
+                        "Onion, chopped: 30g",
+                        "Vegetable Broth or Water: 400ml",
+                        "Olive Oil: 1 tsp (5ml)",
+                        "Spices (Cumin, Turmeric, Ginger powder): to taste"
+                    ],
+                    "prepOverview": "Rinse lentils. Saut\u00e9 onions & carrots. Add lentils, broth, spices. Simmer till lentils soft. Serve with bread.",
+                    "interestingFacts": "Lentils protein & fiber, Whole-grain bread complex carbs & fiber.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~36g",
+                        "carbs": "~58g",
+                        "fat": "~14g"
+                    }
+                },
+                {
+                    "optionName": "Option 3: Chickpea Curry with Quinoa",
+                    "prepTime": "35 mins (including quinoa cooking)",
+                    "ingredients": [
+                        "Chickpeas (canned, drained & rinsed or cooked): 150g",
+                        "Quinoa (cooked): 120g",
+                        "Onion, chopped: 30g",
+                        "Tomato, chopped: 50g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Curry powder, Garam Masala, Ginger, Garlic): to taste"
+                    ],
+                    "prepOverview": "Cook quinoa. Saut\u00e9 onions, add tomatoes and spices. Add chickpeas and cook in spice base. Serve with quinoa.",
+                    "interestingFacts": "Chickpeas plant-based protein & fiber, Quinoa complete protein & gluten-free grain.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~37g",
+                        "carbs": "~60g",
+                        "fat": "~15g"
+                    }
+                },
+                {
+                    "optionName": "Option 4: Paneer Tikka Salad with Brown Rice",
+                    "prepTime": "30 mins (including paneer tikka prep)",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 150g",
+                        "Brown Rice (cooked): 100g",
+                        "Mixed Vegetables (Bell Peppers, Onions, Tomatoes, Broccoli, Cauliflower - from acceptable list), chopped: 100g",
+                        "Greek Yogurt (for marination): 30g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Turmeric, Paprika, Ginger, Garlic powder): to taste"
+                    ],
+                    "prepOverview": "Marinate paneer in yogurt & spices, grill or pan-fry as tikka. Toss cooked brown rice and mixed vegetables. Top with paneer tikka.",
+                    "interestingFacts": "Paneer tikka flavorful protein, Brown rice complex carbs, Salad veggies vitamins & fiber.",
+                    "macros": {
+                        "calories": "~480kcal",
+                        "protein": "~39g",
+                        "carbs": "~56g",
+                        "fat": "~18g"
+                    }
+                },
+                {
+                    "optionName": "Option 5: Kidney Bean Chili with Brown Rice Cakes",
+                    "prepTime": "30 mins",
+                    "ingredients": [
+                        "Kidney Beans (canned, drained & rinsed or cooked): 150g",
+                        "Brown Rice Cakes: 3 cakes",
+                        "Onion, chopped: 30g",
+                        "Tomato, chopped: 50g",
+                        "Olive Oil: 1 tsp (5ml)",
+                        "Spices (Chili powder, Cumin, Oregano): to taste"
+                    ],
+                    "prepOverview": "Saut\u00e9 onions, add tomatoes and spices. Add kidney beans and simmer as chili. Serve with brown rice cakes.",
+                    "interestingFacts": "Kidney beans plant-based protein & fiber, Brown rice cakes light carbs.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~35g",
+                        "carbs": "~62g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 6: Moong Dal (Split Yellow Gram) Khichdi with Vegetables",
+                    "prepTime": "35 mins",
+                    "ingredients": [
+                        "Moong Dal (Split Yellow Gram): 60g",
+                        "Brown Rice: 60g",
+                        "Mixed Vegetables (Carrot, Peas, Cauliflower, etc.): 100g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Turmeric, Cumin, Ginger, Salt): to taste"
+                    ],
+                    "prepOverview": "Rinse moong dal and rice. Saut\u00e9 vegetables in oil with spices. Add dal, rice, and water. Cook as khichdi until soft and mushy.",
+                    "interestingFacts": "Khichdi is a comforting and easily digestible dish. Moong dal & rice provide balanced protein and carbs.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~36g",
+                        "carbs": "~60g",
+                        "fat": "~16g"
+                    }
+                },
+                {
+                    "optionName": "Option 7: Pinto Bean and Corn Salad with Quinoa",
+                    "prepTime": "20 mins (if quinoa is pre-cooked)",
+                    "ingredients": [
+                        "Quinoa (cooked): 120g",
+                        "Pinto Beans (canned, drained & rinsed or cooked): 100g",
+                        "Corn (canned or kernels): 80g",
+                        "Onion, finely chopped: 20g",
+                        "Salsa: 3 tbsp",
+                        "Olive Oil: 1 tsp (5ml)"
+                    ],
+                    "prepOverview": "Cook quinoa. Mix cooked quinoa with pinto beans, corn, and onion. Dress with salsa and olive oil.",
+                    "interestingFacts": "Pinto beans & quinoa plant-based protein, Corn & quinoa carbs, Salad fresh and light.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~34g",
+                        "carbs": "~65g",
+                        "fat": "~14g"
+                    }
+                },
+                {
+                    "optionName": "Option 8: Urad Dal (Black Gram) and Vegetable Curry with Brown Rice",
+                    "prepTime": "40 mins (including dal cooking)",
+                    "ingredients": [
+                        "Urad Dal (Black Gram): 60g (dry weight, soaked and cooked)",
+                        "Brown Rice (cooked): 120g",
+                        "Mixed Vegetables (Onion, Tomato, Spinach - from acceptable list): 100g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Ginger, Garlic, Garam Masala, Turmeric): to taste"
+                    ],
+                    "prepOverview": "Cook urad dal. Saut\u00e9 onions, add tomatoes & vegetables, spices. Add cooked dal and simmer as curry. Serve with brown rice.",
+                    "interestingFacts": "Urad dal protein & fiber, Brown rice complex carbs, Curry flavorful and hearty.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~38g",
+                        "carbs": "~58g",
+                        "fat": "~17g"
+                    }
+                },
+                {
+                    "optionName": "Option 9: Cottage Cheese (Paneer) and Vegetable Stir-fry with Brown Rice",
+                    "prepTime": "25 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 150g",
+                        "Brown Rice (cooked): 100g",
+                        "Mixed Vegetables (Broccoli, Cauliflower, Carrots, Onions, Bell Peppers - from acceptable list), chopped: 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Soy Sauce/Tamari: 1 tbsp",
+                        "Ginger, Garlic (minced): to taste"
+                    ],
+                    "prepOverview": "Stir-fry vegetables in olive oil with ginger and garlic. Add paneer cubes and soy sauce. Cook until paneer is lightly browned and vegetables are tender-crisp. Serve with brown rice.",
+                    "interestingFacts": "Stir-fry quick and nutritious, Paneer protein, Brown rice carbs & fiber.",
+                    "macros": {
+                        "calories": "~480kcal",
+                        "protein": "~40g",
+                        "carbs": "~55g",
+                        "fat": "~18g"
+                    }
+                },
+                {
+                    "optionName": "Option 10: Black Bean Burgers (Lentil & Rice Cake base) on Brown Bread",
+                    "prepTime": "40 mins (including burger prep)",
+                    "ingredients": [
+                        "Black Beans (canned, drained & rinsed or cooked): 150g",
+                        "Lentils (cooked): 50g",
+                        "Brown Rice Cakes, crushed: 2 cakes",
+                        "Onion, finely chopped: 30g",
+                        "Spices (Cumin, Paprika, Garlic powder): to taste",
+                        "Brown Bread Buns: 2",
+                        "Tomato & Onion slices for burger"
+                    ],
+                    "prepOverview": "Mash black beans and lentils. Mix with crushed rice cakes, onions, and spices to form burger patties. Pan-fry or bake burgers. Serve in brown bread buns with tomato and onion slices.",
+                    "interestingFacts": "Black bean & lentil burgers plant-based protein, Brown bread fiber, Burger fun and satisfying.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~36g",
+                        "carbs": "~60g",
+                        "fat": "~15g"
+                    }
+                },
+                {
+                    "optionName": "Option 11: Toor Dal (Pigeon Peas) with Brown Rice and Vegetables",
+                    "prepTime": "40 mins (including dal cooking)",
+                    "ingredients": [
+                        "Toor Dal (Pigeon Peas): 60g (dry weight, soaked and cooked)",
+                        "Brown Rice (cooked): 120g",
+                        "Mixed Vegetables (Spinach, Tomatoes, Onions - from acceptable list): 100g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Turmeric, Mustard seeds, Curry leaves - if available, Ginger, Garlic): to taste"
+                    ],
+                    "prepOverview": "Cook toor dal. Prepare vegetable tadka with mustard seeds, curry leaves (optional), ginger, garlic. Add vegetables and spices. Add cooked dal and simmer. Serve with brown rice.",
+                    "interestingFacts": "Toor dal protein & fiber, Brown rice complex carbs, Dal with tadka flavorful and traditional.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~37g",
+                        "carbs": "~59g",
+                        "fat": "~16g"
+                    }
+                },
+                {
+                    "optionName": "Option 12: Split Peas Soup with Brown Bread",
+                    "prepTime": "35 mins",
+                    "ingredients": [
+                        "Split Peas (Green or Yellow): 70g (dry weight)",
+                        "Brown Bread: 2 slices (approx. 70g)",
+                        "Carrots, chopped: 50g",
+                        "Onion, chopped: 30g",
+                        "Vegetable Broth or Water: 400ml",
+                        "Olive Oil: 1 tsp (5ml)",
+                        "Spices (Bay leaf, Thyme, Salt, Pepper): to taste"
+                    ],
+                    "prepOverview": "Rinse split peas. Saut\u00e9 onions & carrots. Add split peas, broth, spices. Simmer until peas are soft and soup thickens. Serve with brown bread.",
+                    "interestingFacts": "Split peas protein & fiber, Brown bread complex carbs, Soup hearty and warming.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~35g",
+                        "carbs": "~61g",
+                        "fat": "~14g"
+                    }
+                },
+                {
+                    "optionName": "Option 13: Vegetable and Paneer Biryani with Greek Yogurt Raita",
+                    "prepTime": "45 mins",
+                    "ingredients": [
+                        "Basmati Rice: 100g",
+                        "Cottage Cheese (Paneer), cubed: 100g",
+                        "Mixed Vegetables (Carrots, Peas, Cauliflower, Beans - from acceptable list): 100g",
+                        "Greek Yogurt (non-fat): 50g (for raita)",
+                        "Onion, sliced: 30g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Biryani Spices (Biryani Masala, Turmeric, Ginger, Garlic, Mint, Cilantro - acceptable herbs): to taste"
+                    ],
+                    "prepOverview": "Cook basmati rice. Marinate paneer in biryani spices. Layer rice, vegetables, and paneer in a pot. Cook in layers (biryani style). Prepare raita by whisking Greek yogurt with salt and cumin. Serve biryani with raita.",
+                    "interestingFacts": "Biryani flavorful and aromatic, Paneer protein, Rice carbs, Raita cooling and probiotic.",
+                    "macros": {
+                        "calories": "~480kcal",
+                        "protein": "~39g",
+                        "carbs": "~57g",
+                        "fat": "~18g"
+                    }
+                },
+                {
+                    "optionName": "Option 14:  Paneer Bhurji with Brown Bread",
+                    "prepTime": "25 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), crumbled: 200g",
+                        "Brown Bread: 2 slices (approx. 70g)",
+                        "Onion, chopped: 30g",
+                        "Tomato, chopped: 50g",
+                        "Olive Oil: 1 tsp (5ml)",
+                        "Spices (Turmeric, Chili powder, Coriander powder, Garam Masala): to taste"
+                    ],
+                    "prepOverview": "Heat olive oil. Saut\u00e9 onions and tomatoes. Add spices and crumbled paneer. Cook until paneer bhurji is ready. Serve with brown bread.",
+                    "interestingFacts": "Paneer bhurji quick and easy, Paneer protein, Brown bread complex carbs.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~38g",
+                        "carbs": "~59g",
+                        "fat": "~17g"
+                    }
+                },
+                {
+                    "optionName": "Option 15:  Quinoa Bowl with Roasted Vegetables & Chickpeas",
+                    "prepTime": "35 mins (including roasting time)",
+                    "ingredients": [
+                        "Quinoa (cooked): 120g",
+                        "Chickpeas (canned, drained & rinsed or cooked): 100g",
+                        "Mixed Vegetables (Broccoli, Cauliflower, Carrots, Onions - from acceptable list), cut into pieces: 150g",
+                        "Olive Oil: 2 tsp (10ml - for roasting and dressing)",
+                        "Spices (Paprika, Garlic powder, Salt, Pepper): to taste",
+                        "Balsamic Vinegar: 1 tsp (for dressing)"
+                    ],
+                    "prepOverview": "Toss vegetables with 1 tsp olive oil and spices. Roast in oven or air fryer until tender. Cook quinoa. Combine cooked quinoa, roasted vegetables, and chickpeas. Drizzle with balsamic vinegar and remaining 1 tsp olive oil.",
+                    "interestingFacts": "Roasted vegetables flavorful and nutritious, Quinoa complete protein, Chickpeas plant-based protein & fiber, Bowl meal balanced and wholesome.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~36g",
+                        "carbs": "~60g",
+                        "fat": "~16g"
+                    }
+                }
+            ]
+        },
+        {
+            "mealName": "Meal 4: Pre-Workout",
+            "time": "4:00 PM - 5:00 PM (1-2 hours before workout)",
+            "macroGoals": {
+                "calories": "345-360kcal (~15%)",
+                "protein": "20-25g (~12%)",
+                "carbs": "50-55g (~25%)",
+                "fat": "5-7g (~7%)"
+            },
+            "mealObjective": "Provide readily available energy for workout, maximize glycogen stores, and minimize digestive discomfort.",
+            "mealOptions": [
+                {
+                    "optionName": "Option 1: Banana with Peanut Butter & Rice Cakes",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Banana: 1 medium (approx. 100g)",
+                        "Peanut Butter (natural, no added sugar): 2 tbsp (32g)",
+                        "Rice Cakes: 2 cakes"
+                    ],
+                    "prepOverview": "Slice banana. Spread peanut butter on rice cakes. Top with banana slices.",
+                    "interestingFacts": "Banana quick carbs & potassium, Peanut butter sustained energy.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~21g",
+                        "carbs": "~52g",
+                        "fat": "~9g"
+                    }
+                },
+                {
+                    "optionName": "Option 2: Whey Protein Shake with Brown Bread",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Whey Protein Powder (flavor of choice): 1 scoop (25g powder)",
+                        "Brown Bread: 1 slice (approx. 35g)",
+                        "Almond Milk or Water: 200ml"
+                    ],
+                    "prepOverview": "Prepare whey protein shake. Have with brown bread slice.",
+                    "interestingFacts": "Whey protein muscle protection, Brown bread sustained carbs.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~24g",
+                        "carbs": "~54g",
+                        "fat": "~7g"
+                    }
+                },
+                {
+                    "optionName": "Option 3: Banana Smoothie with Almond Milk & Honey",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Banana: 2 medium (approx. 200g)",
+                        "Almond Milk: 200ml",
+                        "Honey: 1 tsp (5g)"
+                    ],
+                    "prepOverview": "Blend banana, almond milk, and honey until smooth.",
+                    "interestingFacts": "Banana quick carbs & potassium, Almond milk light liquid.",
+                    "macros": {
+                        "calories": "~345kcal",
+                        "protein": "~4g",
+                        "carbs": "~75g",
+                        "fat": "~3g"
+                    }
+                },
+                {
+                    "optionName": "Option 4: Brown Rice with Banana and Cinnamon",
+                    "prepTime": "15 mins (if rice is pre-cooked, otherwise longer)",
+                    "ingredients": [
+                        "Brown Rice (cooked): 150g",
+                        "Banana, sliced: 1 medium (approx. 100g)",
+                        "Cinnamon: 1 tsp",
+                        "Honey: 1 tsp (optional)"
+                    ],
+                    "prepOverview": "Heat cooked brown rice (optional). Top with banana slices and cinnamon. Drizzle honey if desired.",
+                    "interestingFacts": "Brown rice sustained carbs, Banana quick carbs & potassium, Cinnamon flavor & potential blood sugar regulation.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~6g",
+                        "carbs": "~70g",
+                        "fat": "~5g"
+                    }
+                },
+                {
+                    "optionName": "Option 5: Rice Cakes with Honey and Banana Slices",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Rice Cakes: 3 cakes",
+                        "Honey: 2 tsp (10g)",
+                        "Banana slices: from 1 medium banana (approx. 100g)"
+                    ],
+                    "prepOverview": "Spread honey on rice cakes. Top with banana slices.",
+                    "interestingFacts": "Rice cakes light carbs, Honey quick energy, Banana potassium.",
+                    "macros": {
+                        "calories": "~340kcal",
+                        "protein": "~3g",
+                        "carbs": "~75g",
+                        "fat": "~2g"
+                    }
+                },
+                {
+                    "optionName": "Option 6:  Whey Protein with Apple Slices",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Whey Protein Powder (flavor of choice): 1 scoop (25g powder)",
+                        "Apple: 1 medium (approx. 150g)",
+                        "Water or Almond Milk: 200ml (for shake)"
+                    ],
+                    "prepOverview": "Prepare whey protein shake with water or almond milk. Eat apple slices alongside.",
+                    "interestingFacts": "Whey protein muscle protection, Apple fiber & quick carbs.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~26g",
+                        "carbs": "~45g",
+                        "fat": "~6g"
+                    }
+                },
+                {
+                    "optionName": "Option 7:  Brown Bread with Mustard and Tomato",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Brown Bread: 2 slices (approx. 70g)",
+                        "Mustard: 2 tsp",
+                        "Tomato slices: 100g"
+                    ],
+                    "prepOverview": "Toast brown bread lightly (optional). Spread mustard on bread slices. Top with tomato slices.",
+                    "interestingFacts": "Brown bread sustained carbs, Tomato vitamins, Mustard flavor.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~10g",
+                        "carbs": "~60g",
+                        "fat": "~8g"
+                    }
+                },
+                {
+                    "optionName": "Option 8:  Rolled Oats with Water and Banana",
+                    "prepTime": "10 mins",
+                    "ingredients": [
+                        "Rolled Oats: 50g (dry weight)",
+                        "Water: 250ml",
+                        "Banana, sliced: 1 medium (approx. 100g)"
+                    ],
+                    "prepOverview": "Cook rolled oats with water until soft. Top with banana slices.",
+                    "interestingFacts": "Oats sustained carbs, Banana quick carbs & potassium.",
+                    "macros": {
+                        "calories": "~340kcal",
+                        "protein": "~7g",
+                        "carbs": "~70g",
+                        "fat": "~4g"
+                    }
+                },
+                {
+                    "optionName": "Option 9:  Quinoa Flakes Porridge with Berries (small portion)",
+                    "prepTime": "15 mins",
+                    "ingredients": [
+                        "Quinoa Flakes: 40g",
+                        "Water or Almond Milk: 200ml",
+                        "Mixed Berries: 50g",
+                        "Honey: 1 tsp (optional)"
+                    ],
+                    "prepOverview": "Cook quinoa flakes with water/almond milk until porridge consistency. Top with berries and honey if desired.",
+                    "interestingFacts": "Quinoa flakes digestible carbs & some protein, Berries antioxidants.",
+                    "macros": {
+                        "calories": "~345kcal",
+                        "protein": "~12g",
+                        "carbs": "~60g",
+                        "fat": "~7g"
+                    }
+                },
+                {
+                    "optionName": "Option 10:  Basmati Rice with Steamed Broccoli (small portion)",
+                    "prepTime": "20 mins (including steaming time)",
+                    "ingredients": [
+                        "Basmati Rice (cooked): 120g",
+                        "Broccoli florets: 100g",
+                        "Salt and Pepper: to taste"
+                    ],
+                    "prepOverview": "Steam broccoli until tender-crisp. Serve with cooked basmati rice. Season with salt and pepper.",
+                    "interestingFacts": "Basmati rice easily digestible carbs, Broccoli vitamins & fiber.",
+                    "macros": {
+                        "calories": "~355kcal",
+                        "protein": "~10g",
+                        "carbs": "~65g",
+                        "fat": "~5g"
+                    }
+                },
+                {
+                    "optionName": "Option 11:  Whey Protein Isolate Shake (for very low fat option) with Orange",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Whey Protein Isolate Powder (flavor of choice): 1 scoop (30g powder)",
+                        "Orange: 1 medium",
+                        "Water: 250ml"
+                    ],
+                    "prepOverview": "Prepare whey protein isolate shake with water. Eat orange alongside.",
+                    "interestingFacts": "Whey protein isolate very low fat, Orange vitamins & quick carbs.",
+                    "macros": {
+                        "calories": "~340kcal",
+                        "protein": "~30g",
+                        "carbs": "~45g",
+                        "fat": "~1g (approx - depends on isolate type)"
+                    }
+                },
+                {
+                    "optionName": "Option 12:  Corn on the Cob (small) with Salsa",
+                    "prepTime": "20 mins (including cooking corn)",
+                    "ingredients": [
+                        "Corn on the Cob: 1 small cob (approx. 150g cooked)",
+                        "Salsa: 3 tbsp"
+                    ],
+                    "prepOverview": "Boil or grill corn on the cob until cooked. Serve with salsa for dipping or topping.",
+                    "interestingFacts": "Corn easily digestible carbs, Salsa adds flavor and vegetables.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~8g",
+                        "carbs": "~70g",
+                        "fat": "~5g"
+                    }
+                },
+                {
+                    "optionName": "Option 13:  Pinto Beans and Rice Cakes Mash",
+                    "prepTime": "10 mins (if beans are pre-cooked/canned)",
+                    "ingredients": [
+                        "Pinto Beans (canned, drained & rinsed or cooked): 100g",
+                        "Rice Cakes, crushed: 2 cakes",
+                        "Salsa or Mustard: 2 tbsp (optional for flavor)"
+                    ],
+                    "prepOverview": "Mash pinto beans slightly. Mix with crushed rice cakes and salsa or mustard for flavor.",
+                    "interestingFacts": "Pinto beans sustained carbs & some protein, Rice cakes light carbs.",
+                    "macros": {
+                        "calories": "~345kcal",
+                        "protein": "~12g",
+                        "carbs": "~60g",
+                        "fat": "~6g"
+                    }
+                },
+                {
+                    "optionName": "Option 14:  Apple and Cinnamon Oatmeal (Water based)",
+                    "prepTime": "15 mins",
+                    "ingredients": [
+                        "Rolled Oats: 50g (dry weight)",
+                        "Water: 250ml",
+                        "Apple, diced: 100g",
+                        "Cinnamon: 1 tsp",
+                        "Honey: 1 tsp (optional)"
+                    ],
+                    "prepOverview": "Cook rolled oats with water until soft. Stir in diced apple and cinnamon. Drizzle honey if desired.",
+                    "interestingFacts": "Oats sustained carbs, Apple fiber & natural sweetness, Cinnamon flavor.",
+                    "macros": {
+                        "calories": "~350kcal",
+                        "protein": "~8g",
+                        "carbs": "~65g",
+                        "fat": "~6g"
+                    }
+                },
+                {
+                    "optionName": "Option 15:  Grapes with Cottage Cheese (small portion - lower carb approach)",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Grapes: 100g",
+                        "Cottage Cheese (Paneer): 100g"
+                    ],
+                    "prepOverview": "Wash grapes. Serve grapes alongside cottage cheese.",
+                    "interestingFacts": "Grapes quick carbs, Cottage cheese protein. Lower carb pre-workout option for some individuals.",
+                    "macros": {
+                        "calories": "~360kcal",
+                        "protein": "~22g",
+                        "carbs": "~40g",
+                        "fat": "~12g"
+                    }
+                }
+            ]
+        },
+        {
+            "mealName": "Meal 5: Post-Workout",
+            "time": "6:30 PM - 7:30 PM (immediately after workout)",
+            "macroGoals": {
+                "calories": "460-480kcal (~20%)",
+                "protein": "40-45g (~25%)",
+                "carbs": "50-60g (~25%)",
+                "fat": "10-12g (~14%)"
+            },
+            "mealObjective": "Replenish glycogen, maximize muscle protein synthesis, reduce muscle breakdown, and promote recovery.",
+            "mealOptions": [
+                {
+                    "optionName": "Option 1: Whey Protein Shake with Banana & Brown Rice",
+                    "prepTime": "10 mins (if rice is pre-cooked)",
+                    "ingredients": [
+                        "Whey Protein Powder (flavor of choice): 1.5 scoops (approx. 45g powder)",
+                        "Banana: 1 medium (approx. 100g)",
+                        "Brown Rice (cooked): 100g",
+                        "Water or Almond Milk: 200ml"
+                    ],
+                    "prepOverview": "Prepare whey protein shake. Serve with cooked brown rice and banana.",
+                    "interestingFacts": "Whey fast protein, Banana & rice fast carbs for glycogen.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~43g",
+                        "carbs": "~60g",
+                        "fat": "~9g"
+                    }
+                },
+                {
+                    "optionName": "Option 2: Cottage Cheese (Paneer) & Rice Cakes with Honey",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer): 200g",
+                        "Rice Cakes: 3 cakes",
+                        "Honey: 2 tsp (10g)",
+                        "Cinnamon: a sprinkle"
+                    ],
+                    "prepOverview": "Spread cottage cheese on rice cakes. Drizzle honey, sprinkle cinnamon.",
+                    "interestingFacts": "Cottage cheese casein, Rice cakes fast carbs, Honey quick energy.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~41g",
+                        "carbs": "~55g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 3: Whey Protein Smoothie with Oats & Banana",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Whey Protein Powder (vanilla): 1.5 scoops (approx. 45g powder)",
+                        "Rolled Oats (raw): 30g",
+                        "Banana: 1 medium (approx. 100g)",
+                        "Almond Milk: 150ml"
+                    ],
+                    "prepOverview": "Blend all ingredients until smooth.",
+                    "interestingFacts": "Whey fast protein, Oats & banana sustained carbs, Smoothie easy to digest.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~42g",
+                        "carbs": "~58g",
+                        "fat": "~11g"
+                    }
+                },
+                {
+                    "optionName": "Option 4: Brown Bread Sandwich with Peanut Butter & Banana",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Brown Bread Slices: 3 slices (approx. 105g)",
+                        "Peanut Butter: 2 tbsp (32g)",
+                        "Banana, sliced: 1 medium (approx. 100g)"
+                    ],
+                    "prepOverview": "Spread peanut butter on bread slices. Layer banana. Make sandwich.",
+                    "interestingFacts": "Brown bread sustained carbs, Peanut butter fats & protein, Banana quick carbs.",
+                    "macros": {
+                        "calories": "~480kcal",
+                        "protein": "~23g",
+                        "carbs": "~65g",
+                        "fat": "~18g"
+                    }
+                },
+                {
+                    "optionName": "Option 5: Greek Yogurt with Oats, Banana & Honey",
+                    "prepTime": "5 mins",
+                    "ingredients": [
+                        "Greek Yogurt (non-fat): 200g",
+                        "Rolled Oats (raw): 30g",
+                        "Banana, sliced: 1 medium (approx. 100g)",
+                        "Honey: 1 tsp (5g)"
+                    ],
+                    "prepOverview": "Combine Greek yogurt, oats, banana, and honey in a bowl.",
+                    "interestingFacts": "Greek yogurt casein & probiotics, Oats & banana carbs, Honey quick energy.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~30g",
+                        "carbs": "~65g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 6: Whey Protein & Brown Rice Pudding",
+                    "prepTime": "20 mins (including rice pudding cooking)",
+                    "ingredients": [
+                        "Brown Rice (cooked into pudding consistency - use more water/milk while cooking): 150g",
+                        "Whey Protein Powder (vanilla): 1.5 scoops (approx. 45g powder)",
+                        "Cinnamon: a pinch"
+                    ],
+                    "prepOverview": "Cook brown rice into a pudding consistency. Stir in whey protein and cinnamon. Serve warm or cold.",
+                    "interestingFacts": "Brown rice pudding comforting carbs, Whey protein fast protein, Warm option.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~44g",
+                        "carbs": "~55g",
+                        "fat": "~10g"
+                    }
+                },
+                {
+                    "optionName": "Option 7:  Paneer Bhurji with Brown Bread (small portion)",
+                    "prepTime": "25 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), crumbled: 200g",
+                        "Brown Bread: 1 slice (approx. 35g)",
+                        "Onion, chopped: 30g",
+                        "Tomato, chopped: 50g",
+                        "Olive Oil: 1 tsp (5ml)",
+                        "Spices (Turmeric, Chili powder, Coriander powder, Garam Masala): to taste"
+                    ],
+                    "prepOverview": "Prepare paneer bhurji (as in lunch option). Serve with one slice of brown bread.",
+                    "interestingFacts": "Paneer bhurji savory protein, Brown bread carbs, Warm savory option.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~42g",
+                        "carbs": "~45g",
+                        "fat": "~18g"
+                    }
+                },
+                {
+                    "optionName": "Option 8:  Soya Chunks and Brown Rice Bowl (smaller portion)",
+                    "prepTime": "25 mins (if soya chunks and rice are pre-cooked)",
+                    "ingredients": [
+                        "Soya Chunks (TVP, cooked): 70g",
+                        "Brown Rice (cooked): 120g",
+                        "Mixed Vegetables (Onion, Tomato, Broccoli, Cauliflower - pre-cooked): 70g",
+                        "Spices (Turmeric, Cumin, Garlic powder): to taste"
+                    ],
+                    "prepOverview": "Combine pre-cooked soya chunks, brown rice, and vegetables. Heat through. Season with spices.",
+                    "interestingFacts": "Soya chunks plant-based protein, Brown rice complex carbs, Quick if ingredients pre-cooked.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~40g",
+                        "carbs": "~50g",
+                        "fat": "~15g"
+                    }
+                },
+                {
+                    "optionName": "Option 9:  Whey Protein Pancakes with Banana & Honey",
+                    "prepTime": "20 mins",
+                    "ingredients": [
+                        "Whey Protein Pancake Mix (or homemade using whey protein, oats flour, almond milk - adjust ratios to macros): as per mix instructions for approx macros",
+                        "Banana, sliced: 1 medium (for topping)",
+                        "Honey: 1 tsp (for topping)"
+                    ],
+                    "prepOverview": "Prepare whey protein pancakes as per mix instructions or homemade recipe. Top with banana slices and honey.",
+                    "interestingFacts": "Protein pancakes dessert-like post-workout, Whey protein & carbs in pancake mix, Banana & honey extra carbs.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~45g",
+                        "carbs": "~55g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 10:  Chickpea and Brown Rice Salad (warm or cold)",
+                    "prepTime": "20 mins (if rice and chickpeas pre-cooked)",
+                    "ingredients": [
+                        "Chickpeas (cooked): 150g",
+                        "Brown Rice (cooked): 120g",
+                        "Mixed Vegetables (Onion, Tomato, Cucumber - from acceptable list), chopped: 80g",
+                        "Olive Oil & Balsamic Vinegar Dressing: 1 tbsp olive oil + 1 tsp balsamic vinegar"
+                    ],
+                    "prepOverview": "Combine cooked chickpeas, brown rice, and chopped vegetables. Dress with olive oil and balsamic vinegar. Serve warm or cold.",
+                    "interestingFacts": "Chickpeas plant-based protein, Brown rice complex carbs, Salad fresh and balanced.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~36g",
+                        "carbs": "~58g",
+                        "fat": "~14g"
+                    }
+                },
+                {
+                    "optionName": "Option 11:  Lentil and Brown Rice Bowl with Spices",
+                    "prepTime": "30 mins (if lentils and rice pre-cooked)",
+                    "ingredients": [
+                        "Lentils (cooked - red or green): 150g",
+                        "Brown Rice (cooked): 120g",
+                        "Onion, finely chopped: 20g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Cumin, Turmeric, Chili powder): to taste"
+                    ],
+                    "prepOverview": "Heat olive oil, saut\u00e9 onions with spices. Add cooked lentils and brown rice. Heat through.",
+                    "interestingFacts": "Lentils plant-based protein, Brown rice complex carbs, Spiced for flavor.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~38g",
+                        "carbs": "~56g",
+                        "fat": "~16g"
+                    }
+                },
+                {
+                    "optionName": "Option 12:  Quinoa with Cottage Cheese and Berries",
+                    "prepTime": "15 mins (if quinoa is pre-cooked)",
+                    "ingredients": [
+                        "Quinoa (cooked): 100g",
+                        "Cottage Cheese (Paneer): 150g",
+                        "Mixed Berries: 50g",
+                        "Honey: 1 tsp (optional)"
+                    ],
+                    "prepOverview": "Combine cooked quinoa, cottage cheese, and berries. Drizzle honey if desired.",
+                    "interestingFacts": "Quinoa complete protein, Cottage cheese casein, Berries antioxidants & carbs.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~40g",
+                        "carbs": "~50g",
+                        "fat": "~15g"
+                    }
+                },
+                {
+                    "optionName": "Option 13:  Pinto Bean and Brown Rice Burrito Bowl (deconstructed)",
+                    "prepTime": "25 mins (if beans and rice pre-cooked)",
+                    "ingredients": [
+                        "Pinto Beans (cooked): 150g",
+                        "Brown Rice (cooked): 120g",
+                        "Salsa: 3 tbsp",
+                        "Greek Yogurt: 50g",
+                        "Onion, chopped: 20g"
+                    ],
+                    "prepOverview": "Combine cooked pinto beans, brown rice, chopped onion. Top with salsa and Greek yogurt.",
+                    "interestingFacts": "Pinto beans plant-based protein, Brown rice complex carbs, Bowl style for easy eating.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~37g",
+                        "carbs": "~60g",
+                        "fat": "~17g"
+                    }
+                },
+                {
+                    "optionName": "Option 14:  Whey Protein & Corn on the Cob (small portion)",
+                    "prepTime": "20 mins (including corn cooking)",
+                    "ingredients": [
+                        "Whey Protein Powder (flavor of choice): 1.5 scoops (approx. 45g powder)",
+                        "Corn on the Cob: 1 small cob (approx. 150g cooked)",
+                        "Water or Almond Milk: 200ml (for shake)"
+                    ],
+                    "prepOverview": "Prepare whey protein shake. Serve with cooked corn on the cob.",
+                    "interestingFacts": "Whey protein fast protein, Corn easily digestible carbs, Simple and effective.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~40g",
+                        "carbs": "~50g",
+                        "fat": "~12g"
+                    }
+                },
+                {
+                    "optionName": "Option 15:  Rice Cakes with Peanut Butter and Honey (extra peanut butter)",
+                    "prepTime": "3 mins",
+                    "ingredients": [
+                        "Rice Cakes: 3 cakes",
+                        "Peanut Butter: 3 tbsp (48g)",
+                        "Honey: 2 tsp (10g)"
+                    ],
+                    "prepOverview": "Spread peanut butter on rice cakes. Drizzle honey.",
+                    "interestingFacts": "Rice cakes fast carbs, Peanut butter healthy fats & some protein, Higher fat option for those who prefer.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~16g",
+                        "carbs": "~50g",
+                        "fat": "~22g"
+                    }
+                }
+            ]
+        },
+        {
+            "mealName": "Meal 6: Dinner",
+            "time": "9:00 PM - 10:00 PM",
+            "macroGoals": {
+                "calories": "460-480kcal (~20%)",
+                "protein": "45-50g (~27%)",
+                "carbs": "20-25g (~10%)",
+                "fat": "25-30g (~36%)"
+            },
+            "mealObjective": "Continue muscle recovery, promote satiety for the evening, and provide sustained nutrient release during sleep.",
+            "mealOptions": [
+                {
+                    "optionName": "Option 1: Paneer Tikka with Mixed Vegetables",
+                    "prepTime": "30 mins (including marination time)",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 200g",
+                        "Greek Yogurt (for marination): 50g",
+                        "Mixed Vegetables (Bell Peppers, Onions, Tomatoes, Broccoli, Cauliflower): 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Turmeric, Paprika, Ginger, Garlic powder): to taste"
+                    ],
+                    "prepOverview": "Marinate paneer, chop veggies. Grill/pan-fry paneer & veggies.",
+                    "interestingFacts": "Paneer tikka flavorful protein & fats, Veggies fiber & vitamins, Lower carb dinner.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~48g",
+                        "carbs": "~22g",
+                        "fat": "~28g"
+                    }
+                },
+                {
+                    "optionName": "Option 2: Soya Chunks Stir-Fry with Sprouts",
+                    "prepTime": "20 mins",
+                    "ingredients": [
+                        "Soya Chunks (TVP, dry): 60g",
+                        "Sprouts (from acceptable list): 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Onion, sliced: 30g",
+                        "Spices (Soy Sauce/Tamari, Ginger, Garlic, Chili flakes - optional): to taste"
+                    ],
+                    "prepOverview": "Soak soya chunks, stir-fry onions, soya chunks & sprouts with spices.",
+                    "interestingFacts": "Soya chunks plant-based protein, Sprouts nutrient-dense, Stir-fry quick cooking.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~46g",
+                        "carbs": "~24g",
+                        "fat": "~26g"
+                    }
+                },
+                {
+                    "optionName": "Option 3: Cottage Cheese (Paneer) Steak with Roasted Broccoli",
+                    "prepTime": "35 mins (including roasting time)",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), thick slices/steak cut: 200g",
+                        "Broccoli florets: 150g",
+                        "Olive Oil: 2 tbsp (30ml - 1 tbsp for paneer, 1 tbsp for broccoli)",
+                        "Spices (Salt, Pepper, Garlic powder, Paprika): to taste"
+                    ],
+                    "prepOverview": "Season paneer steaks and broccoli with spices and olive oil. Pan-fry or grill paneer steaks and roast broccoli until tender.",
+                    "interestingFacts": "Paneer steak high protein & fats, Broccoli fiber & vitamins, Roasted veggies flavorful.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~50g",
+                        "carbs": "~20g",
+                        "fat": "~29g"
+                    }
+                },
+                {
+                    "optionName": "Option 4: Lentil and Vegetable Curry (Thick)",
+                    "prepTime": "40 mins",
+                    "ingredients": [
+                        "Red Lentils: 80g (dry weight)",
+                        "Mixed Vegetables (Cauliflower, Broccoli, Onions, Tomatoes): 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Curry powder, Turmeric, Ginger, Garlic, Garam Masala): to taste"
+                    ],
+                    "prepOverview": "Cook lentils thick. Saut\u00e9 onions, add tomatoes & veggies, spices. Add lentils and simmer as thick curry.",
+                    "interestingFacts": "Lentils plant-based protein & fiber, Veggies vitamins, Thick curry for satiety.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~47g",
+                        "carbs": "~25g",
+                        "fat": "~25g"
+                    }
+                },
+                {
+                    "optionName": "Option 5: Chickpea and Paneer Salad (Warm or Cold) with Olive Oil Dressing",
+                    "prepTime": "20 mins (if chickpeas are pre-cooked)",
+                    "ingredients": [
+                        "Chickpeas (cooked): 150g",
+                        "Cottage Cheese (Paneer), cubed: 150g",
+                        "Mixed Vegetables (Onion, Tomato, Cucumber, Bell Peppers - from acceptable list), chopped: 100g",
+                        "Olive Oil Dressing: 2 tbsp (30ml) + Balsamic Vinegar (optional)"
+                    ],
+                    "prepOverview": "Combine chickpeas, paneer, and chopped vegetables. Dress with olive oil and balsamic vinegar (optional). Serve warm or cold.",
+                    "interestingFacts": "Chickpeas & paneer protein, Salad fresh, Olive oil healthy fats.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~45g",
+                        "carbs": "~20g",
+                        "fat": "~24g"
+                    }
+                },
+                {
+                    "optionName": "Option 6:  Urad Dal (Black Gram) Curry (Thick) with Vegetables",
+                    "prepTime": "45 mins (including dal cooking)",
+                    "ingredients": [
+                        "Urad Dal (Black Gram): 70g (dry weight, soaked and cooked)",
+                        "Mixed Vegetables (Spinach, Cauliflower, Tomatoes, Onions - from acceptable list): 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Ginger, Garlic, Garam Masala, Turmeric, Bay leaf): to taste"
+                    ],
+                    "prepOverview": "Cook urad dal thick. Prepare vegetable tadka with spices. Add veggies and cooked dal, simmer as thick curry.",
+                    "interestingFacts": "Urad dal protein & fiber, Veggies vitamins, Thick curry hearty.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~49g",
+                        "carbs": "~23g",
+                        "fat": "~27g"
+                    }
+                },
+                {
+                    "optionName": "Option 7:  Paneer and Vegetable Skewers (Grilled or Pan-Fried)",
+                    "prepTime": "40 mins (including marination time)",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 200g",
+                        "Mixed Vegetables (Bell Peppers, Onions, Tomatoes, Zucchini - from acceptable list), cubed: 150g",
+                        "Olive Oil: 1 tbsp (15ml) + for brushing",
+                        "Spices (Paprika, Oregano, Garlic powder, Lemon juice - acceptable condiment): to taste"
+                    ],
+                    "prepOverview": "Marinate paneer and vegetables in spices and olive oil. Thread onto skewers. Grill or pan-fry skewers, brushing with olive oil.",
+                    "interestingFacts": "Skewers fun and flavorful, Paneer & veggies protein & vitamins, Grilled/pan-fried for taste.",
+                    "macros": {
+                        "calories": "~480kcal",
+                        "protein": "~50g",
+                        "carbs": "~22g",
+                        "fat": "~29g"
+                    }
+                },
+                {
+                    "optionName": "Option 8:  Moong Dal (Split Yellow Gram) Cheela (Pancake) with Paneer Filling",
+                    "prepTime": "35 mins (including cheela prep)",
+                    "ingredients": [
+                        "Moong Dal (Split Yellow Gram): 60g (soaked and blended or Moong Dal flour)",
+                        "Cottage Cheese (Paneer), crumbled: 150g",
+                        "Onion, finely chopped: 30g (for cheela batter and paneer filling)",
+                        "Spices (Ginger, Garlic, Chili - for cheela, Spices for paneer filling): to taste"
+                    ],
+                    "prepOverview": "Prepare moong dal cheela batter. Cook thin cheelas. Prepare paneer filling by saut\u00e9ing onions and paneer with spices. Fill cheelas with paneer mixture.",
+                    "interestingFacts": "Moong dal cheela savory base, Paneer filling high protein, Cheela & filling combined for meal.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~48g",
+                        "carbs": "~25g",
+                        "fat": "~25g"
+                    }
+                },
+                {
+                    "optionName": "Option 9:  Pinto Bean and Vegetable Stew (Thick)",
+                    "prepTime": "40 mins",
+                    "ingredients": [
+                        "Pinto Beans (cooked): 200g",
+                        "Mixed Vegetables (Carrots, Celery, Onions, Tomatoes, Cauliflower - from acceptable list), chopped: 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Vegetable Broth or Water: 200ml",
+                        "Spices (Cumin, Oregano, Bay leaf, Salt, Pepper): to taste"
+                    ],
+                    "prepOverview": "Saut\u00e9 onions and vegetables in olive oil with spices. Add cooked pinto beans and broth/water. Simmer as thick stew.",
+                    "interestingFacts": "Pinto beans plant-based protein & fiber, Stew hearty and warming, Veggies vitamins.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~46g",
+                        "carbs": "~23g",
+                        "fat": "~24g"
+                    }
+                },
+                {
+                    "optionName": "Option 10:  Toor Dal (Pigeon Peas) with Roasted Vegetables",
+                    "prepTime": "45 mins (including roasting time)",
+                    "ingredients": [
+                        "Toor Dal (Pigeon Peas): 60g (dry weight, soaked and cooked)",
+                        "Mixed Vegetables (Broccoli, Cauliflower, Bell Peppers, Onions - from acceptable list), cut into pieces: 150g",
+                        "Olive Oil: 2 tbsp (30ml - 1 tbsp for roasting, 1 tbsp for dal tadka)",
+                        "Spices (Turmeric, Mustard seeds, Curry leaves - optional, Ginger, Garlic): to taste"
+                    ],
+                    "prepOverview": "Roast vegetables with 1 tbsp olive oil and spices. Cook toor dal. Prepare tadka for dal with mustard seeds, curry leaves (optional), ginger, garlic and 1 tbsp olive oil. Mix roasted vegetables with dal.",
+                    "interestingFacts": "Toor dal protein & fiber, Roasted vegetables flavorful & nutritious, Dal tadka aromatic.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~48g",
+                        "carbs": "~24g",
+                        "fat": "~26g"
+                    }
+                },
+                {
+                    "optionName": "Option 11:  Black Bean and Corn Salsa with Cottage Cheese",
+                    "prepTime": "15 mins",
+                    "ingredients": [
+                        "Black Beans (canned, drained & rinsed): 100g",
+                        "Corn (canned or kernels): 80g",
+                        "Salsa: 3 tbsp",
+                        "Cottage Cheese (Paneer): 150g",
+                        "Onion, finely chopped: 20g"
+                    ],
+                    "prepOverview": "Mix black beans, corn, salsa, and chopped onion to make salsa. Serve alongside cottage cheese.",
+                    "interestingFacts": "Black beans plant-based protein, Corn carbs, Salsa flavor & veggies, Cottage cheese casein protein.",
+                    "macros": {
+                        "calories": "~460kcal",
+                        "protein": "~47g",
+                        "carbs": "~20g",
+                        "fat": "~23g"
+                    }
+                },
+                {
+                    "optionName": "Option 12:  Paneer and Sprout Salad with Mustard Dressing",
+                    "prepTime": "20 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 200g",
+                        "Sprouts (from acceptable list): 150g",
+                        "Mixed Vegetables (Tomato, Cucumber, Onion - from acceptable list), chopped: 80g",
+                        "Mustard Dressing: 2 tbsp Mustard + 1 tbsp Olive Oil + Balsamic Vinegar (optional)"
+                    ],
+                    "prepOverview": "Combine paneer, sprouts, and chopped vegetables. Prepare mustard dressing by whisking mustard, olive oil and balsamic vinegar (optional). Dress salad.",
+                    "interestingFacts": "Paneer protein, Sprouts nutrient-dense, Salad fresh, Mustard dressing flavorful.",
+                    "macros": {
+                        "calories": "~465kcal",
+                        "protein": "~49g",
+                        "carbs": "~21g",
+                        "fat": "~25g"
+                    }
+                },
+                {
+                    "optionName": "Option 13:  Kidney Bean Curry (Dry/Semi-Dry) with Vegetables",
+                    "prepTime": "40 mins",
+                    "ingredients": [
+                        "Kidney Beans (cooked): 200g",
+                        "Mixed Vegetables (Onion, Tomato, Bell Peppers - from acceptable list): 150g",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Spices (Chili powder, Cumin, Coriander powder, Garam Masala): to taste"
+                    ],
+                    "prepOverview": "Saut\u00e9 onions, add tomatoes & bell peppers, spices. Add cooked kidney beans and cook as dry/semi-dry curry.",
+                    "interestingFacts": "Kidney beans plant-based protein & fiber, Curry flavorful and savory, Veggies vitamins.",
+                    "macros": {
+                        "calories": "~470kcal",
+                        "protein": "~48g",
+                        "carbs": "~24g",
+                        "fat": "~26g"
+                    }
+                },
+                {
+                    "optionName": "Option 14:  Cottage Cheese (Paneer) and Cauliflower \"Rice\" Bowl",
+                    "prepTime": "30 mins",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 200g",
+                        "Cauliflower \"Rice\" (grated or pulsed cauliflower): 150g",
+                        "Olive Oil: 2 tbsp (30ml - 1 tbsp for paneer, 1 tbsp for cauliflower rice)",
+                        "Spices (Turmeric, Cumin, Paprika, Garlic powder): to taste"
+                    ],
+                    "prepOverview": "Saut\u00e9 cauliflower rice in 1 tbsp olive oil with spices. Pan-fry or grill paneer cubes in 1 tbsp olive oil with spices. Serve paneer over cauliflower rice.",
+                    "interestingFacts": "Cauliflower rice low carb base, Paneer protein & fats, Lower carb dinner bowl.",
+                    "macros": {
+                        "calories": "~475kcal",
+                        "protein": "~50g",
+                        "carbs": "~20g",
+                        "fat": "~29g"
+                    }
+                },
+                {
+                    "optionName": "Option 15:  Paneer Tikka Masala (lighter version - less creamy) with Broccoli",
+                    "prepTime": "45 mins (including tikka prep and masala prep)",
+                    "ingredients": [
+                        "Cottage Cheese (Paneer), cubed: 150g (for tikka) + 50g (for masala) = 200g total",
+                        "Broccoli florets: 150g",
+                        "Greek Yogurt (for tikka marination): 30g",
+                        "Onion, chopped: 30g (for masala)",
+                        "Tomato, chopped: 50g (for masala)",
+                        "Olive Oil: 1 tbsp (15ml)",
+                        "Tikka Masala Spices & Gravy Spices (adjust for lighter gravy - less cream/cashew, more tomato base, use acceptable spices): to taste"
+                    ],
+                    "prepOverview": "Prepare paneer tikka (marinate & grill/pan-fry). Prepare tikka masala gravy with onions, tomatoes, spices and a small amount of paneer for thickening (instead of cream/cashews). Add paneer tikka and broccoli to masala gravy.",
+                    "interestingFacts": "Paneer tikka masala flavorful but lighter version, Broccoli adds fiber & vegetables, Paneer protein.",
+                    "macros": {
+                        "calories": "~480kcal",
+                        "protein": "~49g",
+                        "carbs": "~25g",
+                        "fat": "~28g"
+                    }
+                }
+            ]
+        }
+    ]
+}

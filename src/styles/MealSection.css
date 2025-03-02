@@ -1,0 +1,95 @@
+.meal-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.meal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.meal-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.meal-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #f39c12;
+}
+
+.meal-title-time h2 {
+  color: #2c3e50;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.meal-time {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+.meal-macros-summary {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.macro-badge {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-weight: 500;
+  color: white;
+}
+
+.protein {
+  background-color: #27ae60;
+}
+
+.carbs {
+  background-color: #f39c12;
+}
+
+.fat {
+  background-color: #8e44ad;
+}
+
+.calories {
+  background-color: #e74c3c;
+}
+
+.macro-icon {
+  margin-right: 0.3rem;
+}
+
+.meal-options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.meal-option-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.page-footer {
+  margin-top: auto;
+  text-align: center;
+  color: #999;
+  font-size: 0.8rem;
+  padding-top: 2rem;
+}

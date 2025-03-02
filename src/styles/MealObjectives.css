@@ -1,0 +1,74 @@
+.meal-objectives-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.section-icon {
+  margin-right: 0.5rem;
+  color: #4a6fa5;
+}
+
+.meal-objectives-content {
+  flex: 1;
+}
+
+.meal-objectives-content h3 {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.objectives-intro {
+  margin-bottom: 2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.objectives-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.objective-item {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-left: 3px solid #4a6fa5;
+}
+
+.objective-item h4 {
+  color: #333;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.objective-item p {
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.page-footer {
+  margin-top: auto;
+  text-align: center;
+  color: #999;
+  font-size: 0.8rem;
+  padding-top: 2rem;
+}

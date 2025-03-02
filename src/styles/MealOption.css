@@ -1,0 +1,117 @@
+.meal-option {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.option-title {
+  padding: 0.75rem 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option-title h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.option-macros {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.macro-pill {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+
+.protein {
+  background-color: #27ae60;
+}
+
+.carbs {
+  background-color: #f39c12;
+}
+
+.fat {
+  background-color: #8e44ad;
+}
+
+.calories {
+  background-color: #e74c3c;
+}
+
+.macro-icon {
+  margin-right: 0.3rem;
+  font-size: 0.7rem;
+}
+
+.option-content {
+  display: flex;
+  padding: 1rem;
+}
+
+.ingredients-column {
+  flex: 1;
+  padding-right: 1rem;
+  border-right: 1px solid #e0e0e0;
+}
+
+.ingredients-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients-list li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.ingredients-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+}
+
+.preparation-column {
+  flex: 0.6;
+  padding-left: 1rem;
+}
+
+.prep-time {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.time-icon {
+  margin-right: 0.3rem;
+  color: #7f8c8d;
+}
+
+.prep-instructions {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}

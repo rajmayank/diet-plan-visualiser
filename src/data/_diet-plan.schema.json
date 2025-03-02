@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Diet Plan Schema",
+  "description": "Schema for the diet plan JSON data",
+  "type": "object",
+  "properties": {
+    "dailyGoals": {
+      "type": "object",
+      "description": "Daily calorie and macro targets",
+      "properties": {
+        "targetCalories": {
+          "type": "string",
+          "description": "Target calorie range for the day"
+        },
+        "targetProtein": {
+          "type": "string",
+          "description": "Target protein intake for the day"
+        },
+        "targetCarbs": {
+          "type": "string",
+          "description": "Target carbohydrate intake for the day"
+        },
+        "targetFats": {
+          "type": "string",
+          "description": "Target fat intake for the day"
+        }
+      },
+      "required": [
+        "targetCalories",
+        "targetProtein",
+        "targetCarbs",
+        "targetFats"
+      ]
+    },
+    "mealSections": {
+      "type": "array",
+      "description": "Array of meal sections (Breakfast, Lunch, etc.)",
+      "items": {
+        "type": "object",
+        "description": "A meal section",
+        "properties": {
+          "mealName": {
+            "type": "string",
+            "description": "Name of the meal (e.g., Breakfast)"
+          },
+          "time": {
+            "type": "string",
+            "description": "Time range for the meal"
+          },
+          "macroGoals": {
+            "type": "object",
+            "description": "Macro goals for this meal section",
+            "properties": {
+              "calories": {
+                "type": "string",
+                "description": "Calorie goal for the meal"
+              },
+              "protein": {
+                "type": "string",
+                "description": "Protein goal for the meal"
+              },
+              "carbs": {
+                "type": "string",
+                "description": "Carbohydrate goal for the meal"
+              },
+              "fat": {
+                "type": "string",
+                "description": "Fat goal for the meal"
+              }
+            },
+            "required": ["calories", "protein", "carbs", "fat"]
+          },
+          "mealObjective": {
+            "type": "string",
+            "description": "Objective of this meal"
+          },
+          "mealOptions": {
+            "type": "array",
+            "description": "Array of meal options for this meal section",
+            "items": {
+              "type": "object",
+              "description": "A meal option",
+              "properties": {
+                "optionName": {
+                  "type": "string",
+                  "description": "Name of the meal option"
+                },
+                "macroGoals": {
+                  "type": "object",
+                  "description": "Macro goals for this meal option",
+                  "properties": {
+                    "calories": {
+                      "type": "string",
+                      "description": "Calories in this meal option"
+                    },
+                    "protein": {
+                      "type": "string",
+                      "description": "Protein in this meal option"
+                    },
+                    "carbs": {
+                      "type": "string",
+                      "description": "Carbohydrates in this meal option"
+                    },
+                    "fat": {
+                      "type": "string",
+                      "description": "Fat in this meal option"
+                    }
+                  },
+                  "required": ["calories", "protein", "carbs", "fat"]
+                },
+                "prepTime": {
+                  "type": "string",
+                  "description": "Preparation time for this meal option"
+                },
+                "ingredients": {
+                  "type": "array",
+                  "description": "List of ingredients for this meal option",
+                  "items": {
+                    "type": "string",
+                    "description": "Ingredient item"
+                  }
+                },
+                "prepOverview": {
+                  "type": "string",
+                  "description": "Overview of the preparation steps"
+                },
+                "interestingFacts": {
+                  "type": "string",
+                  "description": "Interesting facts or notes about this meal option"
+                }
+              },
+              "required": [
+                "optionName",
+                "macroGoals",
+                "prepTime",
+                "ingredients",
+                "prepOverview",
+                "interestingFacts"
+              ]
+            }
+          }
+        },
+        "required": [
+          "mealName",
+          "time",
+          "macroGoals",
+          "mealObjective",
+          "mealOptions"
+        ]
+      }
+    }
+  },
+  "required": ["dailyGoals", "mealSections"]
+}
