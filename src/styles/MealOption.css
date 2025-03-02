@@ -179,3 +179,55 @@
   margin-right: 0.3rem;
   color: white;
 }
+
+/* Print styles */
+@media print {
+  .meal-option {
+    border: 1px solid #e0e0e0;
+    page-break-inside: avoid;
+  }
+  
+  .option-header {
+    border-bottom: 1px solid #000;
+    background-color: #f8f9fa !important;
+  }
+  
+  .option-footer {
+    border-top: 1px solid #000;
+    background-color: #f8f9fa !important;
+  }
+  
+  .macro-pill {
+    color: white !important;
+  }
+  
+  .protein {
+    background-color: #27ae60 !important;
+  }
+  
+  .carbs {
+    background-color: #f39c12 !important;
+  }
+  
+  .fat {
+    background-color: #8e44ad !important;
+  }
+  
+  .calories {
+    background-color: #e74c3c !important;
+  }
+  
+  .ingredients-column {
+    border-right: 1px solid #000;
+  }
+  
+  .prep-time-container {
+    background-color: #f8f9fa !important;
+    border: 1px solid #7f8c8d;
+  }
+  
+  .prep-time-badge {
+    background-color: #7f8c8d !important;
+    color: white !important;
+  }
+}

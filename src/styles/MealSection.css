@@ -137,3 +137,41 @@
 .footer-page-number {
   font-style: italic;
 }
+
+/* Print styles */
+@media print {
+  .meal-header {
+    border-bottom: 2px solid #000;
+  }
+  
+  .meal-option-card {
+    border: 1px solid #000;
+    box-shadow: none;
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+  
+  .macro-badge {
+    color: white !important;
+  }
+  
+  .protein {
+    background-color: #27ae60 !important;
+  }
+  
+  .carbs {
+    background-color: #f39c12 !important;
+  }
+  
+  .fat {
+    background-color: #8e44ad !important;
+  }
+  
+  .calories {
+    background-color: #e74c3c !important;
+  }
+  
+  .page-footer {
+    border-top: 1px solid #000;
+  }
+}

@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #4a6fa5;
+  --primary-color: #f39c12;
   --secondary-color: #166088;
   --accent-color: #4daa57;
   --light-color: #f8f9fa;
@@ -18,7 +18,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -39,16 +39,17 @@ main {
 
 /* Print styles */
 @media print {
-  html, body {
+  html,
+  body {
     width: 210mm;
     height: 297mm;
   }
-  
+
   .diet-plan-app {
     padding: 0;
     width: 210mm;
   }
-  
+
   main {
     box-shadow: none;
     padding: 0;

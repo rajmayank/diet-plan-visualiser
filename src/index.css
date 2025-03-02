@@ -92,4 +92,11 @@ button:focus-visible {
   .page:last-child {
     page-break-after: avoid;
   }
+  
+  /* Ensure colors print properly */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
 }
