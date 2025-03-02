@@ -1,12 +1,42 @@
-# React + Vite
+# Diet Plan Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for visualizing personalized diet plans with meal options, nutritional information, and preparation instructions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Daily Overview**: View daily calorie and macro targets at a glance
+- **Meal Objectives**: Understand the purpose of each meal in your diet plan
+- **Detailed Meal Options**: Multiple food choices for each meal with complete information
+- **Print-Friendly Layout**: Optimized for legal size paper (8.5" × 14") for easy printing
+- **Responsive Design**: Works on various screen sizes
 
-## Expanding the ESLint configuration
+## Technical Details
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This application is built with:
+- React for the UI components
+- CSS for styling
+- JSON for diet plan data storage
+
+## Page Layout
+
+The diet plan is organized into several pages:
+1. **Daily Overview**: Summary of daily nutritional goals and meal schedule
+2. **Meal Objectives**: The purpose of each meal in the diet plan
+3. **Meal Options**: Detailed pages for each meal with multiple food choices
+
+## Printing Instructions
+
+This application is optimized for legal size paper (8.5" × 14" or 216mm × 356mm). To print:
+
+1. Use the browser's print function (Ctrl+P or Cmd+P)
+2. Select "Legal" as the paper size
+3. Set margins to "None" or "Minimum"
+4. Enable "Background Graphics" to print colors and backgrounds
+
+## Development
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Setup

@@ -1,0 +1,8 @@
+
+## Customization
+
+The diet plan data is stored in `src/data/diet-plan.json`. You can modify this file to create custom diet plans with different meals, macros, and options.
+
+## License
+
+MIT
