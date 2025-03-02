@@ -30,14 +30,16 @@ const MealOption = ({ option }) => {
           <div className="macro-pill calories">
             <FaFire className="macro-icon" /> {caloriesValue}
           </div>
-          <div className="macro-pill protein">
-            <FaWeight className="macro-icon" /> {proteinValue}
-          </div>
-          <div className="macro-pill carbs">
-            <FaCarrot className="macro-icon" /> {carbsValue}
-          </div>
-          <div className="macro-pill fat">
-            <FaOilCan className="macro-icon" /> {fatValue}
+          <div className="macros-row">
+            <div className="macro-pill protein">
+              <FaWeight className="macro-icon" /> {proteinValue}
+            </div>
+            <div className="macro-pill carbs">
+              <FaCarrot className="macro-icon" /> {carbsValue}
+            </div>
+            <div className="macro-pill fat">
+              <FaOilCan className="macro-icon" /> {fatValue}
+            </div>
           </div>
         </div>
       </div>

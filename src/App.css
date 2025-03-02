@@ -1,12 +1,17 @@
 :root {
-  --primary-color: #f39c12;
+  --primary-color: #4a6fa5;
   --secondary-color: #166088;
-  --accent-color: #4daa57;
+  --accent-color: #4CAF50;
   --light-color: #f8f9fa;
   --dark-color: #343a40;
   --text-color: #212529;
-  --border-color: #dee2e6;
+  --border-color: #e0e0e0;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  
+  --protein-color: #4CAF50;
+  --carbs-color: #FF9800;
+  --fat-color: #9C27B0;
+  --calories-color: #F44336;
 }
 
 body {
@@ -23,9 +28,9 @@ body {
 
 main {
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px var(--shadow-color);
-  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  padding: 1.5rem;
 }
 
 .loading {
@@ -54,5 +59,6 @@ main {
     box-shadow: none;
     padding: 0;
     width: 210mm;
+    border-radius: 0;
   }
 }

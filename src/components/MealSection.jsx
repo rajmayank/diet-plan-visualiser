@@ -78,40 +78,26 @@ const MealSection = ({ mealSection, pageTitle, pageNumber, totalPages }) => {
         <div className="meal-title-section">
           <div className="meal-icon">{getMealIcon()}</div>
           <div className="meal-title-info">
-            <div className="meal-title-time-container">
-              <h2>{mealNameShort}</h2>
-              <div className="meal-time">{mealTime}</div>
-            </div>
+            <h2>{mealNameShort.toUpperCase()}</h2>
+            <div className="meal-time">{mealTime}</div>
           </div>
         </div>
-      </div>
 
-      <div className="meal-macros-section">
         <div className="macro-grid">
-          <div className="macro-row">
+          <div className="macro-row calories-row">
             <div className="macro-badge calories">
               <FaFire className="macro-icon" /> ~{caloriesInfo.value}
-              {caloriesInfo.percent && (
-                <span className="macro-percent">({caloriesInfo.percent}%)</span>
-              )}
             </div>
+          </div>
+          <div className="macro-row">
             <div className="macro-badge protein">
               <FaWeight className="macro-icon" /> P: {proteinInfo.value}
-              {proteinInfo.percent && (
-                <span className="macro-percent">({proteinInfo.percent}%)</span>
-              )}
             </div>
             <div className="macro-badge carbs">
               <FaCarrot className="macro-icon" /> C: {carbsInfo.value}
-              {carbsInfo.percent && (
-                <span className="macro-percent">({carbsInfo.percent}%)</span>
-              )}
             </div>
             <div className="macro-badge fat">
               <FaOilCan className="macro-icon" /> F: {fatInfo.value}
-              {fatInfo.percent && (
-                <span className="macro-percent">({fatInfo.percent}%)</span>
-              )}
             </div>
           </div>
         </div>

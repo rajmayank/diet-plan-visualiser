@@ -11,7 +11,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 0.9rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .option-title {
@@ -23,7 +24,15 @@
 
 .option-macros {
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.macros-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
 }
 
 .macro-pill {
@@ -34,22 +43,23 @@
   font-size: 0.8rem;
   font-weight: 500;
   color: white;
+  white-space: nowrap;
 }
 
 .protein {
-  background-color: #27ae60;
+  background-color: #4CAF50;
 }
 
 .carbs {
-  background-color: #f39c12;
+  background-color: #FF9800;
 }
 
 .fat {
-  background-color: #8e44ad;
+  background-color: #9C27B0;
 }
 
 .calories {
-  background-color: #e74c3c;
+  background-color: #F44336;
 }
 
 .macro-icon {
@@ -86,11 +96,12 @@
   content: "•";
   position: absolute;
   left: 0;
-  color: #3498db;
+  color: #4a6fa5;
+  font-size: 1.2rem;
 }
 
 .preparation-column {
-  flex: 0.9;
+  flex: 1;
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
@@ -102,18 +113,20 @@
   padding: 0.75rem;
   border-radius: 4px;
   border-left: 2px solid #7f8c8d;
-  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
 }
 
 .prep-time-content {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .clock-icon {
   color: #7f8c8d;
   margin-right: 0.5rem;
-  margin-top: 0.2rem;
   flex-shrink: 0;
 }
 
@@ -129,7 +142,6 @@
   font-size: 0.9rem;
   color: #555;
   line-height: 1.5;
-  margin-bottom: 1rem;
 }
 
 .option-footer {
@@ -145,14 +157,14 @@
   display: flex;
   align-items: flex-start;
   flex: 1;
-  margin-right: 1rem;
 }
 
 .footer-icon {
   color: #f39c12;
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
   margin-top: 0.2rem;
   flex-shrink: 0;
+  font-size: 1.1rem;
 }
 
 .footer-facts p {
@@ -161,23 +173,6 @@
   color: #555;
   line-height: 1.4;
   font-style: italic;
-}
-
-.prep-time-badge {
-  display: flex;
-  align-items: center;
-  background-color: #7f8c8d;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  color: white;
-  white-space: normal;
-  max-width: 20%;
-}
-
-.time-icon {
-  margin-right: 0.3rem;
-  color: white;
 }
 
 /* Print styles */
@@ -202,19 +197,19 @@
   }
   
   .protein {
-    background-color: #27ae60 !important;
+    background-color: #4CAF50 !important;
   }
   
   .carbs {
-    background-color: #f39c12 !important;
+    background-color: #FF9800 !important;
   }
   
   .fat {
-    background-color: #8e44ad !important;
+    background-color: #9C27B0 !important;
   }
   
   .calories {
-    background-color: #e74c3c !important;
+    background-color: #F44336 !important;
   }
   
   .ingredients-column {
@@ -224,10 +219,5 @@
   .prep-time-container {
     background-color: #f8f9fa !important;
     border: 1px solid #7f8c8d;
-  }
-  
-  .prep-time-badge {
-    background-color: #7f8c8d !important;
-    color: white !important;
   }
 }

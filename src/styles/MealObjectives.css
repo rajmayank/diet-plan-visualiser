@@ -9,9 +9,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #333;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #4a6fa5;
 }
 
 .objectives-title-section {
@@ -26,26 +26,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f0f7ff;
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 
 .objectives-title-info h2 {
   color: #2c3e50;
   margin: 0;
-  font-weight: 600;
-  font-size: 1.8rem;
+  font-weight: 700;
+  font-size: 2rem;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .meal-objectives-content {
   flex: 1;
-}
-
-.meal-objectives-content h3 {
-  display: flex;
-  align-items: center;
-  color: #333;
-  font-weight: 500;
-  margin-bottom: 1rem;
 }
 
 .objectives-intro {
@@ -57,19 +53,26 @@
 .objectives-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .objective-item {
-  background-color: #f9f9fa;
+  background-color: #f9f9f9;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f0f0f0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.objective-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .objective-header {
   background-color: #f8f9fa;
-  padding: 0.75rem 1rem;
+  padding: 1rem 1.25rem;
   border-bottom: 1px solid #e0e0e0;
   display: flex;
   justify-content: space-between;
@@ -86,6 +89,7 @@
 .objective-time {
   font-size: 0.9rem;
   color: #7f8c8d;
+  font-weight: 500;
 }
 
 .objective-item p {
@@ -93,7 +97,7 @@
   margin: 0;
   line-height: 1.6;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .page-footer {
@@ -103,7 +107,7 @@
   align-items: center;
   color: #999;
   font-size: 0.8rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #eee;
 }
 
@@ -118,14 +122,14 @@
 /* Print styles */
 @media print {
   .objectives-header {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #4a6fa5;
   }
 
   .objective-item {
     border: 1px solid #000;
     box-shadow: none;
     page-break-inside: avoid;
-    background-color: #f9f9fa !important;
+    background-color: #f9f9f9 !important;
   }
 
   .objective-header {
