@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-.option-title {
+.option-header {
   padding: 0.75rem 1rem;
   background-color: #f8f9fa;
   border-bottom: 1px solid #e0e0e0;
@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.option-title h3 {
+.option-title {
   margin: 0;
   color: #2c3e50;
   font-weight: 600;
@@ -89,8 +89,10 @@
 }
 
 .preparation-column {
-  flex: 0.6;
+  flex: 1.5;
   padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .prep-time {
@@ -114,4 +116,35 @@
   font-size: 0.9rem;
   color: #555;
   line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.interesting-facts {
+  margin-top: auto;
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border-left: 2px solid #3498db;
+}
+
+.interesting-facts h5 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.info-icon {
+  margin-right: 0.5rem;
+  color: #3498db;
+}
+
+.interesting-facts p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+  font-style: italic;
 }

@@ -1,40 +1,115 @@
-import React from 'react';
-import MealOption from './MealOption';
-import '../styles/MealSection.css';
-import { FaClock, FaFire, FaWeight, FaCarrot, FaOilCan } from 'react-icons/fa';
+import React from "react";
+import MealOption from "./MealOption";
+import "../styles/MealSection.css";
+import { FaWeight, FaCarrot, FaOilCan, FaFire, FaCoffee, FaAppleAlt, FaUtensils, FaDumbbell, FaMoon } from "react-icons/fa";
+import { GiSandwich, GiNoodles } from "react-icons/gi";
+import { MdFreeBreakfast, MdLunchDining, MdDinnerDining, MdBrunchDining } from "react-icons/md";
 
-const MealSection = ({ mealSection, pageTitle, isPartialPage, pageNumber, totalPages }) => {
+const MealSection = ({
+  mealSection,
+  pageTitle,
+  isPartialPage,
+  pageNumber,
+  totalPages,
+}) => {
   const displayTitle = pageTitle || mealSection.mealName;
-  
+  // Extract just the meal name (e.g., "Breakfast" from "Meal 1: Breakfast")
+  const mealNameShort = displayTitle.includes(":")
+    ? displayTitle.split(":")[1].trim()
+    : displayTitle;
+  const mealTime = mealSection.time;
+
+  // Extract macro values and percentages
+  const extractMacroInfo = (macroString) => {
+    const value = macroString.split("(")[0].trim();
+    const percentMatch = macroString.match(/\(~(\d+)%\)/);
+    const percent = percentMatch ? percentMatch[1] : "";
+    return { value, percent };
+  };
+
+  const proteinInfo = extractMacroInfo(mealSection.macroGoals.protein);
+  const carbsInfo = extractMacroInfo(mealSection.macroGoals.carbs);
+  const fatInfo = extractMacroInfo(mealSection.macroGoals.fat);
+
+  // For calories, handle the range format if present
+  const caloriesString = mealSection.macroGoals.calories;
+  const caloriesInfo = {
+    value: caloriesString.includes("-")
+      ? caloriesString.split("-")[1].split("(")[0].trim()
+      : caloriesString.split("(")[0].trim(),
+    percent: caloriesString.match(/\(~(\d+)%\)/)
+      ? caloriesString.match(/\(~(\d+)%\)/)[1]
+      : "",
+  };
+
+  // Select the appropriate icon based on meal name
+  const getMealIcon = () => {
+    const mealNameLower = mealNameShort.toLowerCase();
+    
+    if (mealNameLower.includes("breakfast")) {
+      return <MdFreeBreakfast />;
+    } else if (mealNameLower.includes("mid-morning") || mealNameLower.includes("snack")) {
+      return <GiSandwich />;
+    } else if (mealNameLower.includes("lunch")) {
+      return <MdLunchDining />;
+    } else if (mealNameLower.includes("pre-workout")) {
+      return <FaDumbbell />;
+    } else if (mealNameLower.includes("post-workout")) {
+      return <FaUtensils />;
+    } else if (mealNameLower.includes("dinner")) {
+      return <MdDinnerDining />;
+    } else {
+      return <FaCoffee />;
+    }
+  };
+
   return (
     <div className="meal-section">
       <div className="meal-header">
-        <div className="meal-title-container">
+        <div className="meal-title-section">
           <div className="meal-icon">
-            <span role="img" aria-label="meal">☕</span>
+            {getMealIcon()}
           </div>
-          <div className="meal-title-time">
-            <h2>{displayTitle.split(':')[0]}</h2>
-            <div className="meal-time">{mealSection.time}</div>
-          </div>
-        </div>
-        
-        <div className="meal-macros-summary">
-          <div className="macro-badge protein">
-            <FaWeight className="macro-icon" /> P: {mealSection.macroGoals.protein.split('(')[0].trim()}
-          </div>
-          <div className="macro-badge carbs">
-            <FaCarrot className="macro-icon" /> C: {mealSection.macroGoals.carbs.split('(')[0].trim()}
-          </div>
-          <div className="macro-badge fat">
-            <FaOilCan className="macro-icon" /> F: {mealSection.macroGoals.fat.split('(')[0].trim()}
-          </div>
-          <div className="macro-badge calories">
-            <FaFire className="macro-icon" /> ~{mealSection.macroGoals.calories.split('-')[1].split('(')[0].trim()}
+          <div className="meal-title-info">
+            <div className="meal-title-time-container">
+              <h2>{mealNameShort}</h2>
+              <div className="meal-time">{mealTime}</div>
+            </div>
           </div>
         </div>
       </div>
-      
+
+      <div className="meal-macros-section">
+        <div className="macro-grid">
+          <div className="macro-row">
+            <div className="macro-badge calories">
+              <FaFire className="macro-icon" /> ~{caloriesInfo.value}
+              {caloriesInfo.percent && (
+                <span className="macro-percent">({caloriesInfo.percent}%)</span>
+              )}
+            </div>
+            <div className="macro-badge protein">
+              <FaWeight className="macro-icon" /> P: {proteinInfo.value}
+              {proteinInfo.percent && (
+                <span className="macro-percent">({proteinInfo.percent}%)</span>
+              )}
+            </div>
+            <div className="macro-badge carbs">
+              <FaCarrot className="macro-icon" /> C: {carbsInfo.value}
+              {carbsInfo.percent && (
+                <span className="macro-percent">({carbsInfo.percent}%)</span>
+              )}
+            </div>
+            <div className="macro-badge fat">
+              <FaOilCan className="macro-icon" /> F: {fatInfo.value}
+              {fatInfo.percent && (
+                <span className="macro-percent">({fatInfo.percent}%)</span>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="meal-options-container">
         {mealSection.mealOptions.map((option, index) => (
           <div key={index} className="meal-option-card">
@@ -42,12 +117,14 @@ const MealSection = ({ mealSection, pageTitle, isPartialPage, pageNumber, totalP
           </div>
         ))}
       </div>
-      
+
       <div className="page-footer">
         {isPartialPage ? (
-          <p>{mealSection.mealName} - Page {pageNumber} of {totalPages}</p>
+          <p>
+            {mealNameShort} - Page {pageNumber} of {totalPages}
+          </p>
         ) : (
-          <p>{mealSection.mealName}</p>
+          <p>{mealNameShort}</p>
         )}
       </div>
     </div>

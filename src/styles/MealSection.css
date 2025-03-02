@@ -2,30 +2,33 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .meal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #333;
 }
 
-.meal-title-container {
+.meal-title-section {
   display: flex;
   align-items: center;
 }
 
 .meal-icon {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-right: 1rem;
   color: #f39c12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.meal-title-time h2 {
+.meal-title-info h2 {
   color: #2c3e50;
   margin: 0;
   font-weight: 600;
@@ -33,14 +36,36 @@
   text-transform: uppercase;
 }
 
+.meal-title-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
 .meal-time {
   font-size: 1rem;
   color: #7f8c8d;
+  margin-top: 0.25rem;
 }
 
-.meal-macros-summary {
+.meal-macros-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.macro-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.macro-row {
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .macro-badge {
@@ -50,6 +75,14 @@
   border-radius: 4px;
   font-weight: 500;
   color: white;
+  min-width: 120px;
+  justify-content: center;
+}
+
+.macro-percent {
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+  opacity: 0.9;
 }
 
 .protein {
